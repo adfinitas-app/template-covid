@@ -1,0 +1,16 @@
+<div class="p-3 message-president bg-black text-white">
+    <p class="aujourdhui text-condensed text-bold text-center">{{ site.data.configuration.edito.introduction.title_html }}</p>
+    <div class="row">
+        <div class="col-sm-4 col-12">
+            <div class="text-center text-sm-right">
+                <img src="{{ site.data.configuration.edito.people.face_image | relative_url }}" alt="president"/>
+            </div>
+        </div>
+        <div class="col-sm-8 col-12">
+            <div class="d-none d-sm-block d-md-none"><br></div>
+            <p class="text-center text-sm-left president-text"><span class="text-bold text-condensed">{{ site.data.configuration.edito.people.name }}</span><br> {{ site.data.configuration.edito.people.job }}</p>
+        </div>
+    </div>
+    {{ site.data.configuration.edito.introduction.introduction_html }}
+    {{ site.data.configuration.edito.introduction.contenu_html}}
+</div>

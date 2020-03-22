@@ -1,6 +1,6 @@
 ---
 date: 2020-03-20 12:00:00
-urgence_post: true
+urgence_post: false
 title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 insertion_social:
   - contenu_code_block: "<blockquote class=\"twitter-tweet\"><p lang=\"fr\" dir=\"ltr\">\U0001F699\U0001F69A\U0001F69B Plus de 5 véhicules professionnels ? Ces dispositifs de suivi de véhicules rencontrent un grand succès en France. Suivi de véhicules professionnels en temps réel par GPS. Gardez le contact avec votre équipe et vos véhicules.<a href=\"https://t.co/GJeYIdVEZV\">https://t.co/GJeYIdVEZV</a></p>&mdash; Expert Market (@ExpertMarket_FR) <a href=\"https://twitter.com/ExpertMarket_FR/status/1229733221643976704?ref_src=twsrc%5Etfw\">February 18, 2020</a></blockquote> <script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"

@@ -1,0 +1,73 @@
+<aside class="right-menu d-flex flex-column no-gutters">
+  <div class="p-2 no-gutters">
+    <img class="logo mx-auto d-block" src="{{ site.data.configuration.logo_image | relative_url }}" alt="logo"/>
+  </div>
+  <div class="p-2 no-gutters">
+    <p class="ensemble text-center">
+      <span class="text-bold">{{ site.data.configuration.sidebar.title }}</span>
+      <br>
+      <small>{{ site.data.configuration.sidebar.subtitle }}</small>
+    </p>
+  </div>
+
+  {% if site.data.configuration.sidebar.gift_grid.once.activate %}
+  <div class="p-2 no-gutters">
+    <p class="ensemble text-center">
+      <span class="text-bold text-uppercase text-primary">{{ site.data.configuration.sidebar.gift_grid.once.texte }}</span>
+    </p>
+  </div>
+  <div class="row p-2 no-gutters">
+    <div class="col p-1">
+      <a class="btn btn-outline-primary w-100" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount1_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount1_number }}€</a>
+    </div>
+    <div class="col p-1">
+      <a class="btn btn-primary w-100" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount2_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount2_number }}€</a>
+    </div>
+    <div class="col p-1">
+      <a class="btn btn-outline-primary w-100" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount3_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount3_number }}€</a>
+    </div>
+  </div>
+  <div class="p-2 no-gutters">
+    <form class="form-inline" target="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount=TODO00">
+      <label class="sr-only" for="inlineFormInputName2">Name</label>
+      <input type="text" class="w-75 form-control mb-2" id="inlineFormInputName2" placeholder="Montant de mon choix">
+      <button type="submit" class="w-25 btn btn-outline-primary mb-2">ok</button>
+    </form>
+  </div>
+  {% endif %}
+
+  {% if site.data.configuration.sidebar.gift_grid.regular.activate %}
+  <div class="p-2 no-gutters">
+    <p class="ensemble text-center">
+      <span class="text-bold text-uppercase text-primary">{{ site.data.configuration.sidebar.gift_grid.regular.texte }}</span>
+    </p>
+  </div>
+  <div class="row p-2 no-gutters">
+    <div class="col p-1">
+      <a class="btn btn-outline-primary w-100" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.regular.amount1_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount1_number }}€</a>
+    </div>
+    <div class="col p-1">
+      <a class="btn btn-primary w-100" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.regular.amount2_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount2_number }}€</a>
+    </div>
+    <div class="col p-1">
+      <a class="btn btn-outline-primary w-100" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.regular.amount3_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount3_number }}€</a>
+    </div>
+  </div>
+  <div class="p-2 no-gutters">
+    <form class="form-inline" target="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount=TODO00">
+      <label class="sr-only" for="inlineFormInputName2">Name</label>
+      <input type="text" class="w-75 form-control mb-2" id="inlineFormInputName2" placeholder="Montant de mon choix">
+      <button type="submit" class="w-25 btn btn-outline-primary mb-2">ok</button>
+    </form>
+  </div>
+  {% endif %}
+
+  <div class="p-2 no-gutters">
+    <p class="remise">{{ site.data.configuration.sidebar.defiscalisation}}</p>
+  </div>
+  <div class="align-items-end mt-auto no-gutters justify-content-start">
+    <a href="#" class="text-tertiary small" data-toggle="modal" data-target="#cgu">{{ site.data.configuration.popup.cgu.titre }}</a>
+    <br/>
+    <a href="#" class="text-tertiary small" data-toggle="modal" data-target="#privacy">{{ site.data.configuration.popup.privacy.titre }}</a>
+  </div>
+</aside>

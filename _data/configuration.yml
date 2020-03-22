@@ -1,11 +1,58 @@
 logo_image: http://via.placeholder.com/150x150
 favicon_image: http://via.placeholder.com/10x10
-primary_color: "#FF0000"
-secondary_color: "#000000"
 date_image: http://via.placeholder.com/40x110/
 urgence_image: http://via.placeholder.com/40x110/FF0000
-sidebar_size_number: 300
+sidebar_size_number: 400
+progress_bar_color: "#eb651c"
 police:
-  primary_declaration: Roboto
-  secondary_declaration: Roboto condensed
   googlefont_url: "https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+sidebar:
+  title: "Donec tincidunt risus ac volutpat lacinia."
+  subtitle: "Neque porro quisquam est qui dolorem, ipsum quia dolor sit."
+  gift_grid:
+    once:
+      activate: true
+      texte: "Je fais un don"
+      gift_url: "https://iraiser.eu/?cid=11&reserved_code_origine=Webcovid"
+      amount1_number: 100
+      amount2_number: 250
+      amount3_number: 500
+    regular:
+      activate: false
+      texte: "Je fais un don chaque mois"
+      gift_url: "https://iraiser.eu/?cid=12&reserved_code_origine=Webcovid"
+      amount1_number: 15
+      amount2_number: 20
+      amount3_number: 30
+  defiscalisation: "66% du montant de mon don sont déductibles de l'Impôt sur le Revenu, dans la limite de 20% du revenu net imposable."
+popup:
+  cgu:
+    titre: "Conditions générales d'utilisation"
+    contenu_html: ...
+  privacy:
+    titre: "Données personnelles"
+    contenu_html: ...
+edito:
+  people:
+    face_image: "http://via.placeholder.com/100x100"
+    name: "Prénom Nom,"
+    job: "Fonction de la personne"
+  introduction:
+    title_html: |
+      Neque porro quisquam est qui dolorem ,<br>ipsum quia dolor sit amet
+    introduction_html: |
+      Lorem ipsum dolor sit amet,<br> Consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius. onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia.
+    contenu_html:  |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius.<br><br>
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius.<br><br>
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius :<br>
+        - Neque porro quisquam est qui dolorem,<br>
+        - Neque porro quisquam est qui dolorem,<br>
+        - Neque porro quisquam est qui dolorem.<br><br>
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia, consectetur adipiscing elit tincidunt risus ac volutpat lacinia. .<br><br>
+
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia.
