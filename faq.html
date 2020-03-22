@@ -1,0 +1,72 @@
+---
+layout: default
+title: "Actualité - COVID-19"
+---
+  {%- include progress-bar.html -%}
+
+  <!-- MOBILE -->
+  <div class="home-mobile d-md-none">
+      {%- include sidebar_mobile.html -%}
+
+      <div class="bandeau-covid bg-urgence">
+          <p class="text-center text-white">
+            {{ page.title }} - Dernière mise à jour <span>{{ page.last_modified_at | date: '%d/%m/%y %H:%M' }}</span>
+          </p>
+      </div>
+      <section class="posts">
+                  {% for post in site.categories.faq %}
+                  <article class="post {% if post.urgence_post %}urgence{% endif %}">
+                      <div class="post-publication-time"><span>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span></div>
+                      <h1  class="post-title text-uppercase text-uppercase {% if post.urgence_post %}text-urgence{% else %}text-primary{% endif %}">{{ post.title }}</h1>
+                      <div class="post-content text-black">{{ post.content }}</div>
+                      {% for social in post.insertion_social %}
+                      <div class="">{{ social.contenu_code_block }}</div>
+                      {% endfor %}
+                  </article>
+                  {% endfor %}
+      </section>
+  </div>
+  <!-- END MOBILE -->
+
+  <!--DESKTOP-->
+  <div class="home d-none d-md-block">
+
+      <!--SIDEBAR-->
+      {%- include sidebar_desktop.html -%}
+      <!--END SIDEBAR-->
+
+      <div class="content">
+
+
+          <div class="blog">
+              <p class="covid-19 text-white bg-primary text-bold">{{ page.title }}</p>
+
+              <p class="last-update">
+                Dernière mise à jour
+                <span class="last-update-time text-condensed text-primary">{{ page.last_modified_at | date: '%d.%m.%Y' }}</span>
+              </p>
+
+              <section class="row posts">
+
+                <div class="col">
+                  {% for post in site.categories.faq %}
+                  <article class="post {% if post.urgence_post %}urgence{% endif %}">
+                      <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% else %}text-primary{% endif %}">{{ post.title }}</h1>
+                      <div class="post-content">{{ post.content }}</div>
+                      {% for social in post.insertion_social %}
+                      <div class="">{{ social.contenu_code_block }}</div>
+                      {% endfor %}
+                      <div class="post-publication-time {% if post.urgence_post %}text-white{% endif %}">
+                        <b>{{ post.date | date: '%d.%m.%Y'}}</b>
+                        <br>
+                        <small>{{ post.date | date: 'à %HH%M'}}</small>
+                      </div>
+                  </article>
+                  {% endfor %}
+                </div>
+
+              </section>
+          </div>
+      </div>
+  </div>
+  <!-- END DESKTOP-->
