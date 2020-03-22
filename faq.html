@@ -64,12 +64,15 @@ contenu_html: >-
 
           <div class="blog">
               <div class="row">
-                  <p class="covid-19 text-white bg-primary text-bold">{{ page.title }}</p>
-    
+                  <div class="col">
+                    <p class="covid-19 text-white bg-primary text-bold">{{ page.title }}</p>
+                </div>
+                <div class="col">
                   <p class="last-update">
                     Dernière mise à jour
                     <span class="last-update-time text-condensed text-primary">{{ page.last_modified_at | date: '%d.%m.%Y' }}</span>
                   </p>
+                </div>
             </div>
               <div class="row">
                 <div class="col">
