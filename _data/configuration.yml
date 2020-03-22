@@ -1,0 +1,11 @@
+logo_image: http://via.placeholder.com/150x150
+favicon_image: http://via.placeholder.com/10x10
+primary_color: "#FF0000"
+secondary_color: "#000000"
+date_image: http://via.placeholder.com/40x110/
+urgence_image: http://via.placeholder.com/40x110/FF0000
+sidebar_size_number: 300
+police:
+  primary_declaration: Roboto
+  secondary_declaration: Roboto condensed
+  googlefont_url: "https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>Nom de l'organisation - COVID-19</title>
+	<link href="http://via.placeholder.com/10x10" rel="shortcut icon">
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link href="" rel="stylesheet">
+</head>
+<body>
+	
+	<script>(function(root){"use strict";var css=".prBarHeader{width:100%;height:4px;z-index:9999;top:0}.bar{width:0;height:100%;transition:height .3s;background:#000}";function addCss(){var s=document.getElementById("prBarHeadercss");if(s===null){s=document.createElement("style");s.type="text/css";s.id="prBarHeadercss";document.head.insertBefore(s,document.head.firstChild);if(!s.styleSheet)return s.appendChild(document.createTextNode(css));s.styleSheet.cssText=css}}function addClass(el,cls){if(el.classList)el.classList.add(cls);else el.className+=" "+cls}function createBar(rm){var el=document.createElement("div"),width=0,here=0,on=0,bar={el:el,go:go};addClass(el,"bar");function move(){var dist=width-here;if(dist<.1&&dist>-.1){place(here);on=0;if(width>=100){el.style.height=0;setTimeout(function(){rm(el)},300)}}else{place(width-dist/4);setTimeout(go,16)}}function place(num){width=num;el.style.width=width+"%"}function go(num){if(num>=0){here=num;if(!on){on=1;move()}}else if(on){move()}}return bar}function prBarHeader(opts){opts=opts||{};var el=document.createElement("div"),applyGo,prBarHeader={el:el,go:function(p){applyGo(p);if(p>=100){init()}}};function rm(child){el.removeChild(child)}function init(){var bar=createBar(rm);el.appendChild(bar.el);applyGo=bar.go}addCss();addClass(el,"prBarHeader");if(opts.id)el.id=opts.id;if(opts.classname)addClass(el,opts.classname);if(opts.target){el.style.position="relative";opts.target.insertBefore(el,opts.target.firstChild)}else{el.style.position="fixed";document.getElementsByTagName("body")[0].appendChild(el)}init();return prBarHeader}if(typeof exports==="object"){module.exports=prBarHeader}else if(typeof define==="function"&&define.amd){define([],function(){return prBarHeader})}else{root.prBarHeader=prBarHeader}})(this);</script>
+<script>
+var options = {
+	classname: 'pr-bar',
+    id: 'prbar-id'
+};
+var prBarHeader = new prBarHeader( options );
+prBarHeader.go( 30 );
+prBarHeader.go( 76 );
+prBarHeader.go(100);
+</script>
+<div class="prBarHeader pr-bar" id="prbar-id" style="position: fixed;">
+    <div class="bar"></div>
+</div>
+<style>
+.progress-bar {
+    background: linear-gradient(to right, #FF0000 var(--scroll), transparent 0);
+    background-repeat: no-repeat;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 7px;
+    z-index: 1;
+}
+</style>
+<div class="progress-bar"></div>
+<script>
+var element = document.documentElement,
+  body = document.body,
+  scrollTop = 'scrollTop',
+  scrollHeight = 'scrollHeight',
+  progress = document.querySelector('.progress-bar'),
+  scroll;
+
+document.addEventListener('scroll', function() {
+  scroll = (element[scrollTop]||body[scrollTop]) / ((element[scrollHeight]||body[scrollHeight]) - element.clientHeight) * 100;
+  progress.style.setProperty('--scroll', scroll + '%');
+});
+</script>
+<div class="home-mobile d-md-none">
+
+      <nav class="pl-3 pr-3 pt-2 pb-2">
+          <div class="row">
+              <div class="col-6">
+                  <img class="logo-mobile" src="/assets/img/logo.png" alt="logo"/>
+              </div>
+              <div class="col-6 text-right">
+                  <a class="btn btn-don" href="" role="button">JE FAIS UN DON</a>
+              </div>
+          </div>
+      </nav>
+      <div class="p-3 message-president">
+          <p class="aujourdhui text-condensed text-bold text-center">AUJOURD’HUI PLUS QUE JAMAIS,<br>RÉPONDONS ENSEMBLE À L’URGENCE DE LA SOLIDARITÉ</p>
+          <div class="row">
+              <div class="col-sm-4 col-12">
+                  <div class="text-center text-sm-right">
+                      <img src="/assets/img/president.png" alt="president"/>
+                  </div>
+              </div>
+              <div class="col-sm-8 col-12">
+                  <div class="d-none d-sm-block d-md-none"><br></div>
+                  <p class="text-center text-sm-left president-text"><span class="text-bold text-condensed">Jean-Baptiste Favatier,</span><br> Président de l’Ordre de Malte France</p>
+              </div>
+          </div>
+          <p>Les personnes les plus fragiles, notamment sans abri ou en situation de grande précarité, ont plus que jamais besoin de notre soutien et de notre secours.<br><br>
+
+              Soyons clairs : dans ce contexte, nous risquons de voir notre collecte de dons baisser, alors que nous avons justement besoin de la générosité de tous pour mener nos actions vitales !<br><br>
+
+              Voilà pourquoi je vous sollicite : dans cette épreuve, il nous faut compter sur la solidarité de chacun. C’est à ce prix que nous réussirons à :<br>
+              - maintenir les missions de nos 10 000 bénévoles, telles que les maraudes sociales et médicalisées,<br>
+              - assurer les activités de nos 1 400 secouristes à pied d’œuvre depuis le début de la crise,<br>
+              - répondre aux besoins déjà grandissants et qui risquent d’exploser.<br><br>
+
+              Le Président de la République en appelait à la solidarité des grandes associations, et nous pouvons être fiers d’en faire partie. Mais aujourd’hui, votre don est essentiel.<br><br>
+
+
+              D’avance, un grand merci de nous aider à continuer de mobiliser toutes nos forces au service des plus fragiles, dans cette crise sans précédent.
+          </p>
+      </div>
+      <div class="bandeau-covid">
+          <p class="text-center">
+            COVID-19* - Dernière mise à jour <span>22/03/20 12:08</span>
+          </p>
+      </div>
+      <section class="posts">
+                  
+                  <article class="post ">
+                      <div class="post-publication-time"><span>18.03.2020<small> à 12H00</small></span></div>
+                      <h1  class="post-title text-uppercase">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</h1>
+                      <div class="post-content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et odio turpis. Donec sem quam, sagittis a pharetra nec, fermentum eget ante. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque placerat nisl sed mattis tristique. Ut tempus aliquet velit. Etiam consectetur quis turpis ac dignissim. Sed in metus quis nisi consectetur lacinia in nec nisl. Pellentesque quis enim sed ante elementum bibendum at vel ligula. Integer hendrerit purus vel mauris rutrum, vel accumsan purus hendrerit. Morbi fermentum ligula sit amet viverra sollicitudin. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus vulputate sit amet magna id pulvinar. Donec feugiat efficitur ipsum at faucibus. In mauris nunc, pulvinar vel interdum quis, efficitur posuere nibh.</p>
+</div>
+                  </article>
+                  
+                  <article class="post ">
+                      <div class="post-publication-time"><span>18.03.2020<small> à 11H13</small></span></div>
+                      <h1  class="post-title text-uppercase">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</h1>
+                      <div class="post-content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et odio turpis. Donec sem quam, sagittis a pharetra nec, fermentum eget ante. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque placerat nisl sed mattis tristique. Ut tempus aliquet velit. Etiam consectetur quis turpis ac dignissim. Sed in metus quis nisi consectetur lacinia in nec nisl. Pellentesque quis enim sed ante elementum bibendum at vel ligula. Integer hendrerit purus vel mauris rutrum, vel accumsan purus hendrerit. Morbi fermentum ligula sit amet viverra sollicitudin. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus vulputate sit amet magna id pulvinar. Donec feugiat efficitur ipsum at faucibus. In mauris nunc, pulvinar vel interdum quis, efficitur posuere nibh.</p>
+</div>
+                  </article>
+                  
+                  <article class="post urgence">
+                      <div class="post-publication-time"><span>18.03.2020<small> à 09H50</small></span></div>
+                      <h1  class="post-title text-uppercase">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</h1>
+                      <div class="post-content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et odio turpis. Donec sem quam, sagittis a pharetra nec, fermentum eget ante. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque placerat nisl sed mattis tristique. Ut tempus aliquet velit. Etiam consectetur quis turpis ac dignissim. Sed in metus quis nisi consectetur lacinia in nec nisl. Pellentesque quis enim sed ante elementum bibendum at vel ligula. Integer hendrerit purus vel mauris rutrum, vel accumsan purus hendrerit. Morbi fermentum ligula sit amet viverra sollicitudin. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus vulputate sit amet magna id pulvinar. Donec feugiat efficitur ipsum at faucibus. In mauris nunc, pulvinar vel interdum quis, efficitur posuere nibh.</p>
+</div>
+                  </article>
+                  
+      </section>
+  </div>
+
+
+
+
+  <div class="home d-none d-md-block">
+      <aside class="right-menu">
+          <div class="right-container">
+              <div>
+                  <img class="logo mb-5" src="http://via.placeholder.com/150x150" alt="logo"/>
+              </div>
+              <p class="ensemble text-center">
+                <span class="text-bold">Donec tincidunt risus ac volutpat lacinia.</span>
+                <br>
+                <small>Neque porro quisquam est qui dolorem, ipsum quia dolor sit.</small>
+              </p>
+              <a class="btn btn-don mb-3 mt-1" href="https://iraiser.eu/?cid=11&reserved_code_origine=Webcovid" role="button">JE FAIS UN DON</a>
+              <p class="remise">66% du montant de mon don sont déductibles de l'Impôt sur le Revenu, dans la limite de 20% du revenu net imposable.</p>
+          </div>
+      </aside>
+      <div class="content">
+          <header class="message-president">
+              <div class="row">
+                  <div class="col-sm-12 col-md-3 text-center">
+                      <div class="text-center mt-4">
+                          <img src="http://via.placeholder.com/100x100" alt="president"/>
+                      </div>
+                      <p class="text-center president-text"><span class="text-bold text-condensed">Prénom Nom,</span> Fonction de la personne</p>
+                  </div>
+                  <div class="col-sm-12 col-md-9">
+                      <p class="aujourdhui text-bold text-condensed text-uppercase">Neque porro quisquam est qui dolorem ,<br>ipsum quia dolor sit amet
+</p>
+                      <p class="chers-amis">
+                        Lorem ipsum dolor sit amet,<br> Consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius. onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia.
+
+                      </p>
+                      <p id="click-to-expand">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius.<br><br>
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius.<br><br>
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius :<br>
+  - Neque porro quisquam est qui dolorem,<br>
+  - Neque porro quisquam est qui dolorem,<br>
+  - Neque porro quisquam est qui dolorem.<br><br>
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia, consectetur adipiscing elit tincidunt risus ac volutpat lacinia. .<br><br>
+
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia.
+
+                      </p>
+                      <div class="text-center mv-3">
+                          <img id="arrow-down" class="arrow-down" src="/assets/img/arrow-down.png" alt="fleche vers le bas"/>
+                      </div>
+                  </div>
+              </div>
+          </header>
+
+
+          <div class="blog">
+              <p class="covid-19 text-bold">Covid 19 Loremp Ipsum</p>
+
+              <p class="last-update">Dernière mise à jour <span class="last-update-time text-condensed">22.03.2020</span></p>
+              <section class="posts">
+
+                <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="actualite faq">Actualités</button>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="faq actualite">FAQ</button>
+
+                <div class="collapse multi-collapse show" id="actualite">
+                  <div class="card card-body">
+                    
+                    <article class="post ">
+                        <h1  class="post-title text-uppercase">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</h1>
+                        <div class="post-content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et odio turpis. Donec sem quam, sagittis a pharetra nec, fermentum eget ante. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque placerat nisl sed mattis tristique. Ut tempus aliquet velit. Etiam consectetur quis turpis ac dignissim. Sed in metus quis nisi consectetur lacinia in nec nisl. Pellentesque quis enim sed ante elementum bibendum at vel ligula. Integer hendrerit purus vel mauris rutrum, vel accumsan purus hendrerit. Morbi fermentum ligula sit amet viverra sollicitudin. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus vulputate sit amet magna id pulvinar. Donec feugiat efficitur ipsum at faucibus. In mauris nunc, pulvinar vel interdum quis, efficitur posuere nibh.</p>
+</div>
+                        <div class="post-publication-time"><b>18.03.2020</b><br><small>à 12H00</small></div>
+                    </article>
+                    
+                    <article class="post ">
+                        <h1  class="post-title text-uppercase">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</h1>
+                        <div class="post-content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et odio turpis. Donec sem quam, sagittis a pharetra nec, fermentum eget ante. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque placerat nisl sed mattis tristique. Ut tempus aliquet velit. Etiam consectetur quis turpis ac dignissim. Sed in metus quis nisi consectetur lacinia in nec nisl. Pellentesque quis enim sed ante elementum bibendum at vel ligula. Integer hendrerit purus vel mauris rutrum, vel accumsan purus hendrerit. Morbi fermentum ligula sit amet viverra sollicitudin. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus vulputate sit amet magna id pulvinar. Donec feugiat efficitur ipsum at faucibus. In mauris nunc, pulvinar vel interdum quis, efficitur posuere nibh.</p>
+</div>
+                        <div class="post-publication-time"><b>18.03.2020</b><br><small>à 11H13</small></div>
+                    </article>
+                    
+                  </div>
+                </div>
+
+                <div class="collapse multi-collapse" id="faq">
+                  <div class="card card-body">
+                    
+                    <article class="post urgence">
+                        <h1  class="post-title text-uppercase">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</h1>
+                        <div class="post-content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et odio turpis. Donec sem quam, sagittis a pharetra nec, fermentum eget ante. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque placerat nisl sed mattis tristique. Ut tempus aliquet velit. Etiam consectetur quis turpis ac dignissim. Sed in metus quis nisi consectetur lacinia in nec nisl. Pellentesque quis enim sed ante elementum bibendum at vel ligula. Integer hendrerit purus vel mauris rutrum, vel accumsan purus hendrerit. Morbi fermentum ligula sit amet viverra sollicitudin. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus vulputate sit amet magna id pulvinar. Donec feugiat efficitur ipsum at faucibus. In mauris nunc, pulvinar vel interdum quis, efficitur posuere nibh.</p>
+</div>
+                        <div class=""></div>
+
+                        </div>
+                        <div class="post-publication-time"><b>18.03.2020</b><br><small>à 09H50</small></div>
+                    </article>
+                    
+                  </div>
+                </div>
+
+              </section>
+          </div>
+      </div>
+  </div>
+
+	<script type="application/javascript" src="/assets/js/script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
