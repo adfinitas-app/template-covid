@@ -14,6 +14,11 @@ title: FAQ - COVID-19
             {{ page.title }} - Dernière mise à jour <span>{{ page.last_modified_at | date: '%d/%m/%y %H:%M' }}</span>
           </p>
       </div>
+    <div class="row">
+          <p class="col">
+            {{ page.title }} - Dernière mise à jour <span>{{ page.last_modified_at | date: '%d/%m/%y %H:%M' }}</span>
+          </p>
+      </div>
       <section class="posts">
                   {% for post in site.categories.faq %}
                   <article class="post {% if post.urgence_post %}urgence{% endif %}">
@@ -46,7 +51,11 @@ title: FAQ - COVID-19
                 Dernière mise à jour
                 <span class="last-update-time text-condensed text-primary">{{ page.last_modified_at | date: '%d.%m.%Y' }}</span>
               </p>
-
+              <div class="row">
+                <div class="col">
+                    {{ page.contenu }}
+                </div>
+            </div>
               <section class="row posts">
 
                 <div class="col">
