@@ -1,49 +1,59 @@
-logo_image: http://via.placeholder.com/150x150
-favicon_image: http://via.placeholder.com/10x10
-date_image: http://via.placeholder.com/40x110/
-urgence_image: http://via.placeholder.com/40x110/FF0000
+logo_image: /uploads/pfp-1024x892-v2.png
+favicon_image: /uploads/pfp-1024x892-v2.png
+date_image: 'http://via.placeholder.com/40x110/'
+urgence_image: 'http://via.placeholder.com/40x110/FF0000'
 sidebar_size_number: 400
-progress_bar_color: "#eb651c"
+progress_bar_color: '#671c3d'
 police:
-  googlefont_url: "https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,423;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,423;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+  googlefont_url: >-
+    https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,423;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,423;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap
 sidebar:
-  title: "Donec tincidunt risus ac volutpat lacinia."
-  subtitle: "Neque porro quisquam est qui dolorem, ipsum quia dolor sit."
+  title: Donec tincidunt risus ac volutpat lacinia.
+  subtitle: 'Neque porro quisquam est qui dolorem, ipsum quia dolor sit.'
   gift_grid:
     once:
       activate: true
-      texte: "Je fais un don"
-      gift_url: "https://faireundon.petitsfreresdespauvres.fr/ab?cids[]=106&cids[]=109&amount=8000&frequency=once"
+      texte: Je fais un don
+      gift_url: >-
+        https://faireundon.petitsfreresdespauvres.fr/ab?cids[]=106&cids[]=109&amount=8000&frequency=once
       amount1_number: 100
       amount2_number: 250
       amount3_number: 500
     regular:
       activate: false
-      texte: "Je fais un don chaque mois"
-      gift_url: "https://faireundon.petitsfreresdespauvres.fr/ab?cids[]=106&cids[]=109&amount=8000&frequency=regular"
+      texte: Je fais un don chaque mois
+      gift_url: >-
+        https://faireundon.petitsfreresdespauvres.fr/ab?cids[]=106&cids[]=109&amount=8000&frequency=regular
       amount1_number: 15
       amount2_number: 20
       amount3_number: 30
-  defiscalisation: "75% du montant de mon don sont déductibles de l'Impôt sur le Revenu, dans la limite de 20% du revenu net imposable."
+  defiscalisation: >-
+    75% du montant de mon don sont déductibles de l'Impôt sur le Revenu, dans la
+    limite de 20% du revenu net imposable.
 popup:
   cgu:
-    titre: "Conditions générales d'utilisation"
+    titre: Conditions générales d'utilisation
     contenu_html: ...
   privacy:
-    titre: "Données personnelles"
+    titre: Données personnelles
     contenu_html: ...
 edito:
   people:
-    face_image: "http://via.placeholder.com/100x100"
-    name: "Prénom Nom,"
-    job: "Fonction de la personne"
+    face_image: 'http://via.placeholder.com/100x100'
+    name: 'Prénom Nom,'
+    job: Fonction de la personne
   introduction:
     title_html: |
       Neque porro quisquam est qui dolorem ,<br>ipsum quia dolor sit amet
-    introduction_html: |
-      Lorem ipsum dolor sit amet,<br> Consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius. onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia.
-    contenu_html:  |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius.<br><br>
+    introduction_html: >
+      Lorem ipsum dolor sit amet,<br> Consectetur adipiscing elit. Donec
+      tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius.
+      onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia.
+      onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia.
+      onsectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia.
+    contenu_html: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt
+      risus ac volutpat lacinia. Aliquam eget ligula eu elit varius.<br><br>
 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt risus ac volutpat lacinia. Aliquam eget ligula eu elit varius.<br><br>
 
