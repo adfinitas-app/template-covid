@@ -3,13 +3,21 @@ date: 2020-03-20 12:00:00
 urgence_post: false
 title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 insertion_social:
-  - contenu_code_block: "<blockquote class=\"twitter-tweet\"><p lang=\"fr\" dir=\"ltr\">\U0001F699\U0001F69A\U0001F69B Plus de 5 véhicules professionnels ? Ces dispositifs de suivi de véhicules rencontrent un grand succès en France. Suivi de véhicules professionnels en temps réel par GPS. Gardez le contact avec votre équipe et vos véhicules.<a href=\"https://t.co/GJeYIdVEZV\">https://t.co/GJeYIdVEZV</a></p>&mdash; Expert Market (@ExpertMarket_FR) <a href=\"https://twitter.com/ExpertMarket_FR/status/1229733221643976704?ref_src=twsrc%5Etfw\">February 18, 2020</a></blockquote> <script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
   - contenu_code_block: >-
-      <iframe
-      src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fspaofficiel%2Fposts%2F2998360086886670&width=500"
-      width="500" height="603" style="border:none;overflow:hidden"
-      scrolling="no" frameborder="0" allowTransparency="true"
-      allow="encrypted-media"></iframe>
+      <blockquote class="twitter-tweet"><p lang="fr" dir="ltr">[<a
+      href="https://twitter.com/hashtag/NoubliezPasLesAin%C3%A9s?src=hash&amp;ref_src=twsrc%5Etfw">#NoubliezPasLesAinés</a>]<br>Plus
+      que jamais, la lutte contre l&#39;isolement de nos aînés continue<a
+      href="https://twitter.com/hashtag/Covid_19?src=hash&amp;ref_src=twsrc%5Etfw">#Covid_19</a>
+      <a
+      href="https://twitter.com/hashtag/coronavirus?src=hash&amp;ref_src=twsrc%5Etfw">#coronavirus</a>
+      <a
+      href="https://twitter.com/hashtag/confinement?src=hash&amp;ref_src=twsrc%5Etfw">#confinement</a>
+      <a
+      href="https://t.co/xysyvMQlli">pic.twitter.com/xysyvMQlli</a></p>&mdash;
+      Petits Frères des Pauvres (@PFPauvres) <a
+      href="https://twitter.com/PFPauvres/status/1241030491593031681?ref_src=twsrc%5Etfw">March
+      20, 2020</a></blockquote> <script async
+      src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 category: actualite
 ---
 
