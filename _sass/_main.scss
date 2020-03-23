@@ -74,7 +74,7 @@ body {
 			font-size: 18px;
 		}
 
-		.arrow-down {
+		.arrow-down {pos
 			cursor: pointer;
 			transition: transform $transitionSpeed ease-in-out;
 			transform: rotateX(0deg)
@@ -111,7 +111,6 @@ body {
 			top: 0;
 			font-size: 50px;
 			padding: 0 20px;
-			font-family: $bodyFontSecondary;
 		}
 
 		.last-update {
@@ -155,6 +154,8 @@ body {
 				.post-title {
 					font-weight: bold;
 					font-size: 22px;
+					font-family: $bodyFontSecondary;
+					
 				}
 
 				.post-content {
