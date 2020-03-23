@@ -63,23 +63,6 @@ title: "Actualité - COVID-19"
                     {% endfor %}
                 </div>
 
-                <div class="col">
-                  {% for post in site.categories.faq %}
-                  <article class="post {% if post.urgence_post %}urgence{% endif %}">
-                      <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% else %}text-primary{% endif %}">{{ post.title }}</h1>
-                      <div class="post-content">{{ post.content }}</div>
-                      {% for social in post.insertion_social %}
-                      <div class="">{{ social.contenu_code_block }}</div>
-                      {% endfor %}
-                      <div class="post-publication-time {% if post.urgence_post %}text-white{% endif %}">
-                        <b>{{ post.date | date: '%d.%m.%Y'}}</b>
-                        <br>
-                        <small>{{ post.date | date: 'à %HH%M'}}</small>
-                      </div>
-                  </article>
-                  {% endfor %}
-                </div>
-
               </section>
           </div>
       </div>
