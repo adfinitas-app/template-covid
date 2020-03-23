@@ -5,7 +5,7 @@
 // Color system
 $white:         #fff !default;
 $black:         #000 !default;
-$primary:       #eb651c !default;
+$primary:       #373632 !default;
 $secondary:     #70624f !default;
 $tertiary:      #354253 !default;
 $quaternary:    #eee !default;
@@ -32,11 +32,11 @@ $backgroundColor: $white;
 
 
 //Couleur des polices
-$bodyColor: $black;
+$bodyColor: $primary;
 
 // Police
-$bodyFont: 'Roboto', sans-serif;
-$bodyFontSecondary: 'Roboto condensed', sans-serif;
+$bodyFont: 'Montserrat', sans-serif;
+$bodyFontSecondary: 'Josefin Sans', sans-serif;
 
 // Positionning
 $sidebarWidth: {{ site.data.configuration.sidebar_size_number }}px;
