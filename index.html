@@ -58,7 +58,7 @@ title: "Actualité - COVID-19"
                             {% for social in post.insertion_social %}
                             <div class="">{{ social.contenu_code_block }}</div>
                             {% endfor %}
-                        <div class="post-publication-time"><b>{{ post.date | date: '%d.%m.%Y'}}</b><br><small>{{ post.date | date: 'à %HH%M'}}</small></div>
+                        <div class="post-publication-time text-secondary"><b>{{ post.date | date: '%d.%m.%Y'}}</b><br><small>{{ post.date | date: 'à %HH%M'}}</small></div>
                     </article>
                     {% endfor %}
                 </div>
