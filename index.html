@@ -53,7 +53,7 @@ title: "Actualité - COVID-19"
                 <div class="col">
                     {% for post in site.categories.actualite %}
                     <article class="post {% if post.urgence_post %}urgence{% endif %}">
-                        <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% else %}text-urgence{% endif %}">{{ post.title }}</h1>
+                        <h1  class="post-title text-uppercase {% if post.urgence_post %}text-primary{% else %}text-urgence{% endif %}">{{ post.title }}</h1>
                         <div class="post-content text-secondary">{{ post.content }}</div>
                             {% for social in post.insertion_social %}
                             <div class="">{{ social.contenu_code_block }}</div>
