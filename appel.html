@@ -1,0 +1,72 @@
+---
+layout: default
+title: "L'appel de la SPA"
+contenu_html: >-
+  <p>Compte-tenu des &eacute;v&eacute;nements actuels en France, la SPA souhaite
+  r&eacute;pondre &agrave; toutes les questions que le public pourrait se poser
+  au sujet de cette situation exceptionnelle en lien avec les animaux de
+  compagnie, ainsi que le fonctionnement limit&eacute; de nos refuges, Maisons
+  SPA et dispensaires.</p><h2>Les questions</h2><h3>LES ANIMAUX ET LE
+  COVID-19</h3><p>Les animaux ont-ils et transmettent-ils le COVID-19 ?<br
+  />Dois-je prot&eacute;ger mon animal ?<br />Dois-je abandonner ou tuer mon
+  animal ?<br />Les rats et les nacs sont-ils de porteurs interm&eacute;diaires
+  comme pour la peste ?<br />Puis-je promener mon animal ?</p><h3>LE
+  CONFINEMENT</h3><p>Si je trouve un animal pendant le confinement, que dois-je
+  faire ?</p><h3>L'ORGANISATION</h3><p>Quelles mesures la SPA prend-elle ?<br
+  />Les refuges et maisons SPA vont-ils euthanasier leurs animaux ?<br />Qui
+  s'occupe des animaux dans les refuges ?</p><h3>COMMENT NOUS
+  AIDER</h3><p>Puis-je aider le refuge &agrave; c&ocirc;t&eacute; de chez moi ?
+  / Faire un don de croquettes ?<br />Peut-on adopter un animal pour vous aider
+  ?<br />J&rsquo;aimerais accueillir provisoirement un animal chez moi pour vous
+  aider, est-ce possible ?</p>
+---
+  {%- include progress-bar.html -%}
+
+  <!-- MOBILE -->
+  <div class="home-mobile d-md-none">
+      {%- include sidebar_mobile.html -%}
+      <div class="bandeau-covid bg-urgence">
+          <p class="text-center text-white">
+            {{ page.title }} - Dernière mise à jour <span>{{ page.last_modified_at | date: '%d/%m/%y %H:%M' }}</span>
+          </p>
+      </div>
+      <section class="posts">
+                  {% for post in site.posts %}
+                  <article class="post {% if post.urgence_post %}urgence{% endif %}">
+                      <div class="post-publication-time"><span>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span></div>
+                      <h1  class="post-title text-uppercase text-uppercase {% if post.urgence_post %}text-urgence{% else %}text-primary{% endif %}">{{ post.title }}</h1>
+                      <div class="post-content text-black">{{ post.content }}</div>
+                      {% for social in post.insertion_social %}
+                      <div class="">{{ social.contenu_code_block }}</div>
+                      {% endfor %}
+                  </article>
+                  {% endfor %}
+      </section>
+  </div>
+  <!-- END MOBILE -->
+
+  <!--DESKTOP-->
+  <div class="home d-none d-md-block">
+
+      <!--SIDEBAR-->
+      {%- include sidebar_desktop.html -%}
+      <!--END SIDEBAR-->
+
+      <div class="content">
+
+        <!-- NAVBAR DESKTOP -->
+          {%- include navbar_desktop.html -%}
+        <!-- NAVBAR DESKTOP END -->
+
+          <div class="blog">
+
+            IMAGE + CONTENU ICI
+
+          </div>
+
+          <!--SIDEBAR-->
+          {%- include content_footer.html -%}
+          <!--END SIDEBAR-->
+      </div>
+  </div>
+  <!-- END DESKTOP-->

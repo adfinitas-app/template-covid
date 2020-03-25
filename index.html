@@ -1,14 +1,13 @@
 ---
 layout: default
-title: "Actualité - COVID-19"
+title: "En direct"
 ---
   {%- include progress-bar.html -%}
 
   <!-- MOBILE -->
   <div class="home-mobile d-md-none">
       {%- include sidebar_mobile.html -%}
-      {%- include edito_mobile.html -%}
-      <div class="bandeau-covid bg-urgence">
+      <div class="bandeau-covid">
           <p class="text-center text-white">
             {{ page.title }} - Dernière mise à jour <span>{{ page.last_modified_at | date: '%d/%m/%y %H:%M' }}</span>
           </p>
@@ -17,8 +16,8 @@ title: "Actualité - COVID-19"
                   {% for post in site.posts %}
                   <article class="post {% if post.urgence_post %}urgence{% endif %}">
                       <div class="post-publication-time"><span>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span></div>
-                      <h1  class="post-title text-uppercase text-uppercase {% if post.urgence_post %}text-urgence{% else %}text-primary{% endif %}">{{ post.title }}</h1>
-                      <div class="post-content text-black">{{ post.content }}</div>
+                      <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% else %}text-secondary{% endif %}">{{ post.title }}</h1>
+                      <div class="post-content">{{ post.content }}</div>
                       {% for social in post.insertion_social %}
                       <div class="">{{ social.contenu_code_block }}</div>
                       {% endfor %}
@@ -36,16 +35,16 @@ title: "Actualité - COVID-19"
       <!--END SIDEBAR-->
 
       <div class="content">
-          <!--EDITO-->
-          {%- include edito_desktop.html -%}
-          <!--EDITO-->
 
+        <!-- NAVBAR DESKTOP -->
+          {%- include navbar_desktop.html -%}
+        <!-- NAVBAR DESKTOP END -->
 
           <div class="blog">
               <p class="covid-19 text-white bg-primary text-bold">{{ page.title }}</p>
 
               <p class="last-update text-secondary">
-                Dernière mise à jour
+                {{page.title}} - Dernière mise à jour
                 <span class="last-update-time text-condensed text-primary">{{ page.last_modified_at | date: '%d.%m.%Y' }}</span>
               </p>
 
@@ -58,13 +57,17 @@ title: "Actualité - COVID-19"
                             {% for social in post.insertion_social %}
                             <div class="">{{ social.contenu_code_block }}</div>
                             {% endfor %}
-                        <div class="post-publication-time text-secondary"><b>{{ post.date | date: '%d.%m.%Y'}}</b><br><small>{{ post.date | date: 'à %HH%M'}}</small></div>
+                        <div class="post-publication-time {% if post.urgence_post %}text-urgence{% else %}text-white{% endif %}"><b>{{ post.date | date: '%d.%m.%Y'}}</b><br><small>{{ post.date | date: 'à %HH%M'}}</small></div>
                     </article>
                     {% endfor %}
                 </div>
 
               </section>
           </div>
+
+          <!--SIDEBAR-->
+          {%- include content_footer.html -%}
+          <!--END SIDEBAR-->
       </div>
   </div>
   <!-- END DESKTOP-->

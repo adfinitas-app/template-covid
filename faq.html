@@ -1,24 +1,12 @@
 ---
 layout: default
-title: FAQ - COVID-19
+title: FAQ
 contenu_html: >-
   <p>Compte-tenu des &eacute;v&eacute;nements actuels en France, la SPA souhaite
   r&eacute;pondre &agrave; toutes les questions que le public pourrait se poser
   au sujet de cette situation exceptionnelle en lien avec les animaux de
   compagnie, ainsi que le fonctionnement limit&eacute; de nos refuges, Maisons
-  SPA et dispensaires.</p><h2>Les questions</h2><h3>LES ANIMAUX ET LE
-  COVID-19</h3><p>Les animaux ont-ils et transmettent-ils le COVID-19 ?<br
-  />Dois-je prot&eacute;ger mon animal ?<br />Dois-je abandonner ou tuer mon
-  animal ?<br />Les rats et les nacs sont-ils de porteurs interm&eacute;diaires
-  comme pour la peste ?<br />Puis-je promener mon animal ?</p><h3>LE
-  CONFINEMENT</h3><p>Si je trouve un animal pendant le confinement, que dois-je
-  faire ?</p><h3>L'ORGANISATION</h3><p>Quelles mesures la SPA prend-elle ?<br
-  />Les refuges et maisons SPA vont-ils euthanasier leurs animaux ?<br />Qui
-  s'occupe des animaux dans les refuges ?</p><h3>COMMENT NOUS
-  AIDER</h3><p>Puis-je aider le refuge &agrave; c&ocirc;t&eacute; de chez moi ?
-  / Faire un don de croquettes ?<br />Peut-on adopter un animal pour vous aider
-  ?<br />J&rsquo;aimerais accueillir provisoirement un animal chez moi pour vous
-  aider, est-ce possible ?</p>
+  SPA et dispensaires.</p>
 ---
 
 {%- include progress-bar.html -%}
@@ -41,8 +29,8 @@ contenu_html: >-
                   {% for post in site.categories.faq %}
                   <article class="post {% if post.urgence_post %}urgence{% endif %}">
                       <div class="post-publication-time"><span>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span></div>
-                      <h1  class="post-title text-uppercase text-uppercase {% if post.urgence_post %}text-urgence{% else %}text-primary{% endif %}">{{ post.title }}</h1>
-                      <div class="post-content text-black">{{ post.content }}</div>
+                      <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% else %}text-secondary{% endif %}">{{ post.title }}</h1>
+                      <div class="post-content">{{ post.content }}</div>
                       {% for social in post.insertion_social %}
                       <div class="">{{ social.contenu_code_block }}</div>
                       {% endfor %}
@@ -61,22 +49,20 @@ contenu_html: >-
 
       <div class="content">
 
+        <!-- NAVBAR DESKTOP -->
+          {%- include navbar_desktop.html -%}
+        <!-- NAVBAR DESKTOP END -->
 
-          <div class="blog">
+          <div class="">
               <div class="row">
                   <div class="col">
-                    <p class="covid-19 text-white bg-primary text-bold">{{ page.title }}</p>
+                    <p class="">{{ page.contenu_html }}</p>
                 </div>
                 <div class="col">
-                  <p class="last-update">
-                    Dernière mise à jour
+                  <p class="">
+                    {{page.title}} - Dernière mise à jour le
                     <span class="last-update-time text-condensed text-primary">{{ page.last_modified_at | date: '%d.%m.%Y' }}</span>
                   </p>
-                </div>
-            </div>
-              <div class="row">
-                <div class="col">
-                    {{ page.contenu_html }}
                 </div>
             </div>
               <section class="row posts">
@@ -100,6 +86,10 @@ contenu_html: >-
 
               </section>
           </div>
+
+          <!--SIDEBAR-->
+          {%- include content_footer.html -%}
+          <!--END SIDEBAR-->
       </div>
   </div>
   <!-- END DESKTOP-->
