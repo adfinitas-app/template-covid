@@ -23,11 +23,15 @@ title: "En direct"
                           <img src="{{ image.gallery_image }}" />
                           {% endfor %}
                       </div>
-                      {% for social in post.insertion_social %}
-                        <div class="embed-responsive embed-responsive-1by1">
-                          {{ social.contenu_code_block }}
+                     <div class="row">
+                          {% for social in post.insertion_social %}
+                            {% if social.contenu_code_block %}
+                            <div class="col">
+                                  {{ social.contenu_code_block }}
+                            </div>
+                            {% endif %}
+                          {% endfor %}
                         </div>
-                      {% endfor %}
                   </article>
                   {% endfor %}
       </section>
