@@ -9,6 +9,8 @@ images:
   - gallery_image: 'https://via.placeholder.com/250x250'
   - gallery_image: 'https://via.placeholder.com/250x250'
   - gallery_image: 'https://via.placeholder.com/250x250'
+insertion_video:
+  - video_code_block:
 category: actualite
 ---
 
