@@ -4,9 +4,9 @@ navbar_icon: /assets/img/navbar-icon.png
 navbar_icon_active: /assets/img/navbar_active.gif
 date_image: 'http://via.placeholder.com/40x110/'
 urgence_image: 'http://via.placeholder.com/40x110/FF0000'
-institutional_website: https://www.la-spa.fr/
+institutional_website: 'https://www.la-spa.fr/'
 sidebar_size_number: 400
-progress_bar_color: '#EF5713'
+progress_bar_color: '#ef5713'
 police:
   googlefont_url: >-
     https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Condensed:wght@700
@@ -17,40 +17,34 @@ sidebar:
     once:
       activate: true
       texte: Je fais un don
-      gift_url: >-
-        https://faireundon.petitsfreresdespauvres.fr/ab?cids[]=106&cids[]=109&frequency=once
+      gift_url: 'https://soutenir.la-spa.fr/'
       amount1_number: 100
       amount2_number: 250
       amount3_number: 500
     regular:
       activate: false
       texte: Je fais un don chaque mois
-      gift_url: >-
-        https://faireundon.petitsfreresdespauvres.fr/ab?cids[]=106&cids[]=109&frequency=regular
+      gift_url: 'https://soutenir.la-spa.fr/'
       amount1_number: 15
       amount2_number: 20
       amount3_number: 30
   defiscalisation: >-
     66% du montant de mon don sont déductibles de l’Impôt sur le Revenu, dans la
     limite de 20% du revenu net imposable.
-  monthly: |
-    Je souhaite plutôt faire
-    un don tous les mois
+  monthly: Je souhaite plutôt faire un don tous les mois
   newsletter:
-    title:  Suivez le direct de la SPA
-    subtitle: |
-      Abonnez-vous à nos notifications
-      pour ne rien manquer de nos actualités
+    title: Suivez le direct de la SPA
+    subtitle: Abonnez-vous à nos notificationspour ne rien manquer de nos actualités
 footer:
   rs:
     fb:
       img: /assets/img/fb.png
       alt: Facebook SPA
-      link: https://www.facebook.com/spaofficiel
+      link: 'https://www.facebook.com/spaofficiel'
     tw:
       img: /assets/img/tw.png
       alt: Twitter SPA
-      link: https://twitter.com/SPA_Officiel
+      link: 'https://twitter.com/SPA_Officiel'
 popup:
   cgu:
     titre: CGU
@@ -64,7 +58,7 @@ appel:
   background: /assets/img/bg-appel.png
   heading:
     title: LES ANIMAUX SERONT-ILS LES VICTIMES COLLATERALES DU COVID-19 ?
-    subtitle: NON, SI TOUS ENSEMBLE NOUS NOUS MOBILISONS !
+    subtitle: 'NON, SI TOUS ENSEMBLE NOUS NOUS MOBILISONS !'
     name: Jacques-Charles Fombonne
     jobtitle: Président bénévole de la SPA
   letter:
