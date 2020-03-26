@@ -76,9 +76,15 @@ title: "En direct"
                             <div class="embed-responsive embed-responsive-16by9">{{ video.video_code_block }}</div>
                           {% endif %}
                         {% endfor %}
-                        {% for social in post.insertion_social %}
-                            <div class="embed-responsive">{{ social.contenu_code_block }}</div>
-                        {% endfor %}
+                        <div class="row">
+                          {% for social in post.insertion_social %}
+                            {% if social.contenu_code_block %}
+                            <div class="col">
+                                  {{ social.contenu_code_block }}
+                            </div>
+                            {% endif %}
+                          {% endfor %}
+                        </div>
                     </article>
                     {% endfor %}
                 </div>
