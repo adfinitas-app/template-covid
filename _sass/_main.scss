@@ -42,15 +42,16 @@ body {
 		}
 
 		.nav-item {
+			img {
+				margin-bottom: 4px;
+			}
 			&.active {
 				color: $white !important;
 
 				.nav-link {
 					color: $white !important;
 				}
-				img {
-					margin-bottom: 4px;
-				}
+
 			}
 
 			.nav-link {
@@ -113,6 +114,8 @@ body {
 
 	> div {
 		padding: 20px;
+		width: 100%;
+		max-width: 100%;
 	}
 
 	a.btn {
@@ -229,7 +232,7 @@ body {
 		p {
 			width: 300px;
 			max-width: 100%;
-			line-height: 0.7;
+			line-height: 0.9;
 			margin: 0 auto 15px;
 			color: $marron;
 			font-family: $titleFontPrimary;
