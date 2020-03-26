@@ -1,15 +1,70 @@
-<nav class="pl-3 pr-3 pt-2 pb-2 bg-white">
-    <div class="row">
-        <div class="col-6">
-            <img class="logo-mobile" src="{{ site.data.configuration.logo_image | relative_url }}" alt="logo"/>
+<div>
+    <nav class="bg-orange navbar navbar-inverse bg-inverse navbar-toggleable-sm">
+        <div class="row nav-mobile">
+            <div class="col-3 logo-container">
+                <img class="logo-mobile" src="{{ site.data.configuration.logo_image | relative_url }}" alt="logo"/>
+            </div>
+            <div class="col-9 right">
+                <div class="brand">
+                    COVID-19
+                    <img src="{{ site.data.configuration.navbar_icon | relative_url }}" class="d-inline-block align-middle" alt="">
+                </div>
+
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent23" aria-controls="navbarSupportedContent23" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="oi oi-menu" title="menu" aria-hidden="true"></span>
+                </button>
+
+
+            </div>
         </div>
-        <div class="col-6 text-right">
-            {% if site.data.configuration.sidebar.gift_grid.once.activate %}
-            <a class="btn btn-don btn-primary" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}" role="button">{{ site.data.configuration.sidebar.gift_grid.once.texte }}</a>
-            {% endif %}
-            {% if site.data.configuration.sidebar.gift_grid.regular.activate %}
-            <a class="btn btn-don btn-primary" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}" role="button">{{ site.data.configuration.sidebar.gift_grid.once.texte }}</a>
-            {% endif %}
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent23">
+            <div class="inner">
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-uppercase" href="/">
+                            Direct
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase " href="/faq.html">
+                            FAQ
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="/appel.html">
+                            L'appel de la SPA
+                        </a>
+                    </li>
+                </ul>
+                <!-- Links -->
+
+                <div class="newsletter">
+                    <p>{{ site.data.configuration.sidebar.newsletter.title }}</p>
+                    <form class="form-inline" target="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}" id="form-newsletter">
+                        <input type="text" class="w-85 form-control mb-2" id="input-newsletter" placeholder="Votre email" required>
+                        <button type="submit" class="w-15 btn btn-primary mb-2" id="button-newsletter">OK</button>
+                    </form>
+                    <div id="newsletter-ok">
+                        <p>Vous inscription a été prise en compte.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
-    </div>
-</nav>
+        <!-- Collapsible content -->
+
+
+
+
+    </nav>
+
+    <!-- Fixed donation button -->
+
+    <a class="btn btn-don btn-primary btn-don-fixed-mobile" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}" role="button">{{ site.data.configuration.sidebar.gift_grid.once.texte }}</a>
+
+</div>

@@ -1,7 +1,9 @@
 <aside class="right-menu d-flex flex-column no-gutters">
   <div>
     <div class="p-2 no-gutters">
-      <img class="logo mx-auto d-block" src="{{ site.data.configuration.logo_image | relative_url }}" alt="logo"/>
+      <a href="{{ site.data.configuration.institutional_website }}" target="_blank">
+        <img class="logo mx-auto d-block" src="{{ site.data.configuration.logo_image | relative_url }}" alt="logo"/>
+      </a>
     </div>
     <div class="p-2 no-gutters">
       <p class="ensemble">
@@ -67,7 +69,7 @@
     </div>
   </div>
   <div class="newsletter">
-    <p>{{ site.data.configuration.sidebar.newsletter.title }}<br /><span>{{ site.data.configuration.sidebar.newsletter.subtitle }}</span></p>
+    <p>{{ site.data.configuration.sidebar.newsletter.title }}</p>
     <form class="form-inline" target="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}" id="form-newsletter">
       <input type="text" class="w-85 form-control mb-2" id="input-newsletter" placeholder="Votre email" required>
       <button type="submit" class="w-15 btn btn-primary mb-2" id="button-newsletter">OK</button>

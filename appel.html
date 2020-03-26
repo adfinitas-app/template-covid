@@ -24,8 +24,10 @@ contenu_html_2: >-
   {%- include progress-bar.html -%}
 
   <!-- MOBILE -->
-  <div class="page-mobile appel-mobile d-md-none">
+  <div class="d-md-none page-mobile appel-mobile d-md-none">
+
       {%- include sidebar_mobile.html -%}
+
       <div class="row heading">
           <div class="offset-md-2 col-lg-4 col-md-6 offset-sm-0 col-sm-12">
               <p class="title">{{ site.data.configuration.appel.heading.title }}</p>
@@ -60,7 +62,7 @@ contenu_html_2: >-
 
           <div class="blog">
               <div class="row heading">
-                  <div class="offset-md-2 col-lg-4 col-md-6 offset-sm-0 col-sm-12">
+                  <div class="offset-md-1 col-lg-6 col-md-7 offset-sm-0 col-sm-12">
                       <p class="title">{{ site.data.configuration.appel.heading.title }}</p>
                       <p class="subtitle">{{ site.data.configuration.appel.heading.subtitle }}</p>
                       <p class="name">{{ site.data.configuration.appel.heading.name }},</p>
@@ -83,8 +85,8 @@ contenu_html_2: >-
           </div>
 
           <!--SIDEBAR-->
-          {%- include content_footer.html -%}
           <!--END SIDEBAR-->
       </div>
+      {%- include content_footer.html -%}
   </div>
   <!-- END DESKTOP-->

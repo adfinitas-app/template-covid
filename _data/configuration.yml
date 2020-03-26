@@ -1,9 +1,10 @@
 logo_image: /assets/img/logo.png
 favicon_image: /assets/img/logo.png
 navbar_icon: /assets/img/navbar-icon.png
-navbar_icon_active: /assets/img/navbar_active.png
+navbar_icon_active: /assets/img/navbar_active.gif
 date_image: 'http://via.placeholder.com/40x110/'
 urgence_image: 'http://via.placeholder.com/40x110/FF0000'
+institutional_website: https://www.la-spa.fr/
 sidebar_size_number: 400
 progress_bar_color: '#EF5713'
 police:
