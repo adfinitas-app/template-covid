@@ -352,6 +352,57 @@ body {
 				position: relative;
 				padding: 20px 20px 0 150px;
 
+				.container-images {
+					position: relative;
+
+					img {
+					}
+
+					/* one item */
+					img:first-child:nth-last-child(1) {
+						/* -or- li:only-child { */
+						width: 80%;
+					}
+
+					/* two items */
+					img:first-child:nth-last-child(2),
+					img:first-child:nth-last-child(2) ~ img {
+							width: 49%;
+
+					}
+
+					/* three items */
+					img:first-child:nth-last-child(3),
+					img:first-child:nth-last-child(3) ~ img {
+						&:first-child {
+							width: 74.5%;
+							position: static;
+							float: none;
+						}
+						&:nth-child(2) {
+							width: 25%;
+							top: 0;
+							right: 0;
+						}
+						&:nth-child(3) {
+							width: 25%;
+							top: 50%;
+							right: 0;
+						}
+						width: 25%;
+						position: absolute;
+						max-height: 45%;
+					}
+
+					/* four items */
+					img:first-child:nth-last-child(4),
+					img:first-child:nth-last-child(4) ~ img {
+						width: 48%;
+						margin-bottom: 5px;
+					}
+				}
+
+
 				.post-publication-time {
 					padding-left: 23px;
 					position: absolute;
@@ -738,6 +789,13 @@ body {
 
 		.post {
 			margin-bottom: 40px;
+
+			.container-images {
+				img {
+					width: 80%;
+					margin-bottom: 10px;
+				}
+			}
 
 			.post-publication-time {
 				color: $orange;
