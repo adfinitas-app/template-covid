@@ -50,7 +50,7 @@ footer:
     tw:
       img: /assets/img/tw.png
       alt: Twitter SPA
-      link:
+      link: https://twitter.com/SPA_Officiel
 popup:
   cgu:
     titre: CGU
