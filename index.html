@@ -19,7 +19,9 @@ title: "En direct"
                       <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% endif %}">{{ post.title }}</h1>
                       <div class="post-content">{{ post.content }}</div>
                       {% for image in post.images %}
-                      <div class="">{{ image.gallery_image }}</div>
+                        <div class="">
+                            <img src="{{ image.gallery_image }}" class=""/>
+                        </div>
                       {% endfor %}
                       {% for social in post.insertion_social %}
                       <div class="">{{ social.contenu_code_block }}</div>
@@ -58,9 +60,11 @@ title: "En direct"
                         <div class="post-publication-time {% if post.urgence_post %}text-urgence{% endif %}"><b>{{ post.date | date: '%d.%m.%Y'}}</b><br><small>{{ post.date | date: 'à %HH%M'}}</small></div>
                         <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% endif %}">{{ post.title }}</h1>
                         <div class="post-content">{{ post.content }}</div>
-                            {% for image in post.images %}
-                      <div class="">{{ image.gallery_image }}</div>
-                      {% endfor %}
+                        {% for image in post.images %}
+                            <div class="">
+                               <img src="{{ image.gallery_image }}" />
+                            </div>
+                         {% endfor %}
                             {% for social in post.insertion_social %}
                             <div class="">{{ social.contenu_code_block }}</div>
                             {% endfor %}
