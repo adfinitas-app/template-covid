@@ -1,68 +1,79 @@
 <aside class="right-menu d-flex flex-column no-gutters">
-  <div class="p-2 no-gutters">
-    <img class="logo mx-auto d-block" src="{{ site.data.configuration.logo_image | relative_url }}" alt="logo"/>
-  </div>
-  <div class="p-2 no-gutters">
-    <p class="ensemble text-center">
-      <span class="text-uppercase text-secondary title">{{ site.data.configuration.sidebar.title }}</span>
-      <br>
-      <small class="text-secondary">{{ site.data.configuration.sidebar.subtitle }}</small>
-    </p>
-  </div>
+  <div>
+    <div class="p-2 no-gutters">
+      <img class="logo mx-auto d-block" src="{{ site.data.configuration.logo_image | relative_url }}" alt="logo"/>
+    </div>
+    <div class="p-2 no-gutters">
+      <p class="ensemble">
+        <span class="title">{{ site.data.configuration.sidebar.title }}</span> <span class="subtitle">{{ site.data.configuration.sidebar.subtitle }}</span>
+      </p>
+    </div>
 
-  {% if site.data.configuration.sidebar.gift_grid.once.activate %}
-  <div class="p-2 no-gutters">
-    <p class="ensemble text-center">
-      <span class="text-bold text-uppercase text-primary">{{ site.data.configuration.sidebar.gift_grid.once.texte }}</span>
-    </p>
+    {% if site.data.configuration.sidebar.gift_grid.once.activate %}
+    <div class="row p-2 no-gutters">
+      <div class="col p-1">
+        <a class="btn btn-primary w-100" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount1_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount1_number }}€</a>
+      </div>
+      <div class="col p-1">
+        <a class="btn btn-outline-primary w-100" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount2_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount2_number }}€</a>
+      </div>
+      <div class="col p-1">
+        <a class="btn btn-outline-primary w-100" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount3_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount3_number }}€</a>
+      </div>
+    </div>
+    <div class="p-2 no-gutters">
+      <form class="form-inline" target="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}" id="form-free-amount">
+        <label class="sr-only" for="inlineFormInputName2">Name</label>
+        <input type="text" class="w-100 form-control mb-2" id="inlineFormInputName2" placeholder="Montant libre">
+        <button type="submit" class="w-100 btn btn-outline-primary mb-2" id="button-free-amount">Je fais un don</button>
+      </form>
+    </div>
+    {% endif %}
+
+    {% if site.data.configuration.sidebar.gift_grid.regular.activate %}
+    <div class="p-2 no-gutters">
+      <p class="ensemble text-center">
+        <span class="text-bold text-uppercase text-primary">{{ site.data.configuration.sidebar.gift_grid.regular.texte }}</span>
+      </p>
+    </div>
+    <div class="row p-2 no-gutters">
+      <div class="col p-1">
+        <a class="btn btn-outline-primary w-100" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.regular.amount1_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount1_number }}€</a>
+      </div>
+      <div class="col p-1">
+        <a class="btn btn-primary w-100" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.regular.amount2_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount2_number }}€</a>
+      </div>
+      <div class="col p-1">
+        <a class="btn btn-outline-primary w-100" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.regular.amount3_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount3_number }}€</a>
+      </div>
+    </div>
+    <div class="p-2 no-gutters">
+      <form class="form-inline" target="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}" id="form-free-amount">
+        <label class="sr-only" for="inlineFormInputName2">Name</label>
+        <input type="text" class="w-75 form-control mb-2" id="inlineFormInputName2" placeholder="Montant de mon choix">
+        <span class="input-group-addon">$</span>
+        <button type="submit" class="w-25 btn btn-outline-primary mb-2" id="button-free-amount">Je fais un don</button>
+      </form>
+    </div>
+    {% endif %}
+
+    <a class="p-2 no-gutters monthly-gift-container" href="" target="_blank">
+      <img src="/assets/img/arrow-right.png" alt="">
+      <p>{{ site.data.configuration.sidebar.monthly}}</p>
+    </a>
+
+    <div class="p-2 no-gutters">
+      <p class="remise">{{ site.data.configuration.sidebar.defiscalisation}}</p>
+    </div>
   </div>
-  <div class="row p-2 no-gutters">
-    <div class="col p-1">
-      <a class="btn btn-outline-primary w-100" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount1_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount1_number }}€</a>
-    </div>
-    <div class="col p-1">
-      <a class="btn btn-primary w-100" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount2_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount2_number }}€</a>
-    </div>
-    <div class="col p-1">
-      <a class="btn btn-outline-primary w-100" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount3_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount3_number }}€</a>
-    </div>
-  </div>
-  <div class="p-2 no-gutters">
-    <form class="form-inline" target="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount=TODO00">
-      <label class="sr-only" for="inlineFormInputName2">Name</label>
-      <input type="text" class="w-75 form-control mb-2" id="inlineFormInputName2" placeholder="Montant de mon choix">
-      <button type="submit" class="w-25 btn btn-outline-primary mb-2">ok</button>
+  <div class="newsletter">
+    <p>{{ site.data.configuration.sidebar.newsletter.title }}<br /><span>{{ site.data.configuration.sidebar.newsletter.subtitle }}</span></p>
+    <form class="form-inline" target="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}" id="form-newsletter">
+      <input type="text" class="w-85 form-control mb-2" id="input-newsletter" placeholder="Votre email" required>
+      <button type="submit" class="w-15 btn btn-primary mb-2" id="button-newsletter">OK</button>
     </form>
-  </div>
-  {% endif %}
-
-  {% if site.data.configuration.sidebar.gift_grid.regular.activate %}
-  <div class="p-2 no-gutters">
-    <p class="ensemble text-center">
-      <span class="text-bold text-uppercase text-primary">{{ site.data.configuration.sidebar.gift_grid.regular.texte }}</span>
-    </p>
-  </div>
-  <div class="row p-2 no-gutters">
-    <div class="col p-1">
-      <a class="btn btn-outline-primary w-100" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.regular.amount1_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount1_number }}€</a>
+    <div id="newsletter-ok">
+      <p>Vous inscription a été prise en compte.</p>
     </div>
-    <div class="col p-1">
-      <a class="btn btn-primary w-100" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.regular.amount2_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount2_number }}€</a>
-    </div>
-    <div class="col p-1">
-      <a class="btn btn-outline-primary w-100" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.regular.amount3_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount3_number }}€</a>
-    </div>
-  </div>
-  <div class="p-2 no-gutters">
-    <form class="form-inline" target="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount=TODO00">
-      <label class="sr-only" for="inlineFormInputName2">Name</label>
-      <input type="text" class="w-75 form-control mb-2" id="inlineFormInputName2" placeholder="Montant de mon choix">
-      <button type="submit" class="w-25 btn btn-outline-primary mb-2">ok</button>
-    </form>
-  </div>
-  {% endif %}
-
-  <div class="p-2 no-gutters">
-    <p class="remise">{{ site.data.configuration.sidebar.defiscalisation}}</p>
   </div>
 </aside>

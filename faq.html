@@ -12,24 +12,17 @@ contenu_html: >-
 {%- include progress-bar.html -%}
 
   <!-- MOBILE -->
-  <div class="home-mobile d-md-none">
+  <div class="d-md-none page-mobile faq-page-mobile">
       {%- include sidebar_mobile.html -%}
 
-      <div class="bandeau-covid bg-urgence">
-          <p class="text-center text-white">
-            {{ page.title }} - Dernière mise à jour <span>{{ page.last_modified_at | date: '%d/%m/%y %H:%M' }}</span>
-          </p>
-      </div>
-    <div class="row">
-          <p class="col">
+    <div class="row heading">
             {{ page.contenu_html }}
-          </p>
       </div>
       <section class="posts">
                   {% for post in site.categories.faq %}
                   <article class="post {% if post.urgence_post %}urgence{% endif %}">
                       <div class="post-publication-time"><span>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span></div>
-                      <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% else %}text-secondary{% endif %}">{{ post.title }}</h1>
+                      <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% endif %}">{{ post.title }}</h1>
                       <div class="post-content">{{ post.content }}</div>
                       {% for social in post.insertion_social %}
                       <div class="">{{ social.contenu_code_block }}</div>
@@ -41,7 +34,7 @@ contenu_html: >-
   <!-- END MOBILE -->
 
   <!--DESKTOP-->
-  <div class="home d-none d-md-block">
+  <div class="d-none d-md-block faq-page">
 
       <!--SIDEBAR-->
       {%- include sidebar_desktop.html -%}
@@ -54,32 +47,28 @@ contenu_html: >-
         <!-- NAVBAR DESKTOP END -->
 
           <div class="">
-              <div class="row">
-                  <div class="col">
-                    <p class="">{{ page.contenu_html }}</p>
-                </div>
-                <div class="col">
-                  <p class="">
-                    {{page.title}} - Dernière mise à jour le
-                    <span class="last-update-time text-condensed text-primary">{{ page.last_modified_at | date: '%d.%m.%Y' }}</span>
-                  </p>
-                </div>
+              <div class="row heading">
+                  <div class="col-lg-3 col-md-4 col-sm-6">
+                      <p class="">{{ page.contenu_html }}</p>
+                  </div>
+                  <div class="page-time">
+                      <p class="">
+                          {{page.title}} - Dernière mise à jour le
+                          <span class="last-update-time text-condensed">{{ page.last_modified_at | date: '%d.%m.%Y' }}</span>
+                      </p>
+                  </div>
+              </div>
             </div>
               <section class="row posts">
 
                 <div class="col">
                   {% for post in site.categories.faq %}
                   <article class="post {% if post.urgence_post %}urgence{% endif %}">
-                      <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% else %}text-primary{% endif %}">{{ post.title }}</h1>
+                      <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% endif %}">{{ post.title }}</h1>
                       <div class="post-content">{{ post.content }}</div>
                       {% for social in post.insertion_social %}
                       <div class="">{{ social.contenu_code_block }}</div>
                       {% endfor %}
-                      <div class="post-publication-time {% if post.urgence_post %}text-white{% endif %}">
-                        <b>{{ post.date | date: '%d.%m.%Y'}}</b>
-                        <br>
-                        <small>{{ post.date | date: 'à %HH%M'}}</small>
-                      </div>
                   </article>
                   {% endfor %}
                 </div>

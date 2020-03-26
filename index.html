@@ -5,7 +5,7 @@ title: "En direct"
   {%- include progress-bar.html -%}
 
   <!-- MOBILE -->
-  <div class="home-mobile d-md-none">
+  <div class="home-mobile page-mobile d-md-none">
       {%- include sidebar_mobile.html -%}
       <div class="bandeau-covid">
           <p class="text-center text-white">
@@ -16,7 +16,7 @@ title: "En direct"
                   {% for post in site.posts %}
                   <article class="post {% if post.urgence_post %}urgence{% endif %}">
                       <div class="post-publication-time"><span>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span></div>
-                      <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% else %}text-secondary{% endif %}">{{ post.title }}</h1>
+                      <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% endif %}">{{ post.title }}</h1>
                       <div class="post-content">{{ post.content }}</div>
                       {% for social in post.insertion_social %}
                       <div class="">{{ social.contenu_code_block }}</div>
@@ -41,23 +41,23 @@ title: "En direct"
         <!-- NAVBAR DESKTOP END -->
 
           <div class="blog">
-              <p class="covid-19 text-white bg-primary text-bold">{{ page.title }}</p>
+<!--              <p class="covid-19 text-white bg-primary text-bold">{{ page.title }}</p>-->
 
-              <p class="last-update text-secondary">
-                {{page.title}} - Dernière mise à jour
-                <span class="last-update-time text-condensed text-primary">{{ page.last_modified_at | date: '%d.%m.%Y' }}</span>
+              <p class="last-update">
+                {{page.title}} - Dernière mise à jour le
+                <span>{{ page.last_modified_at | date: '%d.%m.%Y' }}</span>
               </p>
 
               <section class="row posts">
                 <div class="col">
                     {% for post in site.categories.actualite %}
                     <article class="post {% if post.urgence_post %}urgence{% endif %}">
-                        <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% else %}text-secondary{% endif %}">{{ post.title }}</h1>
-                        <div class="post-content text-secondary">{{ post.content }}</div>
+                        <div class="post-publication-time {% if post.urgence_post %}text-urgence{% endif %}"><b>{{ post.date | date: '%d.%m.%Y'}}</b><br><small>{{ post.date | date: 'à %HH%M'}}</small></div>
+                        <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% endif %}">{{ post.title }}</h1>
+                        <div class="post-content">{{ post.content }}</div>
                             {% for social in post.insertion_social %}
                             <div class="">{{ social.contenu_code_block }}</div>
                             {% endfor %}
-                        <div class="post-publication-time {% if post.urgence_post %}text-urgence{% else %}text-white{% endif %}"><b>{{ post.date | date: '%d.%m.%Y'}}</b><br><small>{{ post.date | date: 'à %HH%M'}}</small></div>
                     </article>
                     {% endfor %}
                 </div>
@@ -66,8 +66,8 @@ title: "En direct"
           </div>
 
           <!--SIDEBAR-->
-          {%- include content_footer.html -%}
           <!--END SIDEBAR-->
       </div>
+      {%- include content_footer.html -%}
   </div>
   <!-- END DESKTOP-->

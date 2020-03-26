@@ -12,5 +12,3 @@ Si vous trouvez un animal qui a l’air perdu, contactez les services de fourri&
 Si vous ne connaissez pas le contact de la fourri&egrave;re de proximit&eacute;, contactez votre mairie ou les forces de l’ordre (commissariat, gendarmerie), afin qu’ils vous renseignent le bon contact &agrave; joindre.
 
 Vous pouvez &eacute;galement signaler l’observation d’un animal &eacute;ventuellement perdu sur les groupes Facebook d&eacute;di&eacute;s, du type Wanted Community Animaux, les pages ou groupes Facebook de votre commune, ou encore via la page Pet Alert.&nbsp;
-
-&nbsp;

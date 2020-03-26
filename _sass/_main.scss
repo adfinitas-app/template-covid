@@ -8,11 +8,64 @@ body {
 	font-family: $bodyFont;
 }
 
+.hidden {
+	visibility: hidden !important;
+}
+
+.navbar {
+	padding: 0;
+	background-color: $orange;
+
+	.navbar-brand {
+		padding: .5rem 1rem;
+		font-family: $bodyFontSecondary;
+		font-size: 38px;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: $white;
+	}
+
+	#navbarSupportedContent {
+		padding: .5rem 1rem;
+		background-color: $dark-orange;
+		height: 72px;
+
+		.navbar-nav {
+			align-items: center;
+		}
+
+		.separator {
+			height: 20px;
+			width: 1px;
+			border-right: 1px solid $black;
+			margin: 0 8px 0 22px;
+		}
+
+		.nav-item {
+			&.active {
+				margin-left: 14px;
+				color: $white !important;
+
+				.nav-link {
+					color: $white !important;
+				}
+				img {
+					margin-bottom: 4px;
+				}
+			}
+			.nav-link {
+				color: $marron;
+				font-family: $bodyFontSecondary;
+				font-weight: 700;
+				font-size: 22px;
+			}
+		}
+
+	}
+}
 
 .btn-don {
 	color: #fff;
-	border-color: $red;
-	background-color: $red;
 	border-radius: 8px;
 	width: 100%;
 	font-weight: bold;
@@ -31,27 +84,144 @@ body {
 }
 
 .right-menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 80px;
 	background-color: #F8F8F8;
 	position: fixed;
 	right: 0;
 	top: 0;
-	padding: 20px;
 	height: 100vh;
 	width: $sidebarWidth;
+
+	> div {
+		padding: 20px;
+	}
+
+	a.btn {
+		font-family: $bodyFontSecondary;
+		font-size: 20px;
+		font-weight: bold;
+		color: $marron;
+		padding: 15px 10px;
+
+		&.btn-primary {
+			color: $white !important;
+		}
+	}
+
+	#form-free-amount {
+		input {
+			font-size: 14px;
+			color: $marron;
+			font-family: $bodyFontSecondary;
+			padding: 25px 15px;
+			border-radius: 10px
+		}
+
+		button {
+			background-color: $primary;
+			color: $white;
+			text-transform: uppercase ;
+			font-family: $bodyFontSecondary;
+			font-weight: bold;
+			font-size: 20px;
+			padding: 10px 5px;
+			border-radius: 10px
+		}
+	}
 
 	.ensemble {
 		font-size: 20px;
 		line-height: 1.2;
-		
+		color: $marron;
+
 		.title {
-		    font-family: $bodyFontSecondary;
+			font-weight: bold;
+		}
+		.subtitle {
 		}
 	}
 
 	.remise {
-		font-size: 13px;
+		font-size: 12px;
 		text-align: center;
-		color: #354253;
+		color: $marron;
+	}
+
+	.monthly-gift-container {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+
+		img {
+			margin-right: 10px;
+		}
+
+		p {
+			color: $marron;
+			text-transform: uppercase;
+			font-size: 14px;
+			font-weight: bold;
+			margin: 0;
+			width: 185px;
+			max-width: 100%;
+		}
+	}
+
+	.newsletter {
+		width: 100%;
+		text-align: center;
+		background-color: #EDEDED;
+		padding-top: 40px;
+		padding-bottom: 40px;
+
+		input {
+			color: $marron;
+			width: 85%;
+			border-radius: 10px 0 0 10px;
+
+			&.red-border {
+				border: 1px solid red;
+			}
+		}
+		button {
+			border-radius: 0 10px 10px 0;
+			width: 15%;
+			color: $white;
+			padding: .375rem .55rem;
+		}
+
+		p {
+			width: 300px;
+			max-width: 100%;
+			line-height: 0.7;
+			margin: 0 auto 15px;
+			color: $marron;
+			font-family: $titleFontPrimary;
+			font-weight: bold;
+			font-size: 32px;
+
+			span {
+				font-family: $bodyFont;
+				font-weight: normal;
+				font-size: 14px;
+			}
+		}
+
+		#newsletter-ok {
+			display: none;
+
+			p {
+				font-family: $bodyFont;
+				line-height: 1.2;
+				color: $marron;
+				font-size: 22px;
+				font-weight: bold;
+			}
+		}
 	}
 }
 
@@ -120,35 +290,41 @@ body {
 		.last-update {
 			display: inline-block;
 			position: absolute;
-			right: 0;
+			right: 15px;
 			top: 0;
 			font-size: 14px;
 			padding: 5px;
+			color: $marron;
+
+			span {
+				color: $orange;
+				font-size: 18px;
+				font-weight: bold;
+				font-family: $bodyFontSecondary;
+				padding-left: 0.6rem;
+			}
 		}
 
-		.last-update-time {
-			font-size: 20px;
-			font-family: $bodyFontSecondary;
-			padding-left: 0.6rem;
-		}
+
 
 		.posts {
 			padding: 95px 20px 20px 20px;
+			color: $marron;
 
 			.post {
 				position: relative;
-				padding: 20px 150px 0 20px;
+				padding: 20px 20px 0 150px;
 
 				.post-publication-time {
-					background: $dateBg;
-					height: 48px;
-					width: 112px;
-					padding-top: 8px;
 					padding-left: 23px;
 					position: absolute;
-					right: -20px;
+					left: -20px;
 					top: 23px;
 					line-height:1;
+
+					b {
+						font-size: 18px;
+					}
 				}
 
 				&.urgence .post-publication-time {
@@ -157,9 +333,9 @@ body {
 
 				.post-title {
 					font-weight: bold;
-					font-size: 22px;
-					font-family: $bodyFontSecondary;
-					
+					font-size: 42px;
+					font-family: $titleFontPrimary;
+
 				}
 
 				.post-content {
@@ -170,11 +346,164 @@ body {
 	}
 }
 
+.footer {
+	padding: 20px 30px;
+	position: relative;
+	background-color: $white;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	.rs {
+		margin: 0 10px;
+	}
+
+	.element {
+		display: inline-flex;
+		text-transform: uppercase;
+		color: $marron;
+		font-size: 16px;
+		font-family: $bodyFontSecondary;
+	}
+
+	.separator {
+		display: inline-flex;
+		color: $black;
+		opacity: 0.1;
+		margin: 0 20px;
+		font-family: $bodyFontSecondary;
+	}
+}
+
+.faq-page {
+	.heading {
+		background-image: $faqBg;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		min-height: 680px;
+		padding: 80px;
+		position: relative;
+		width: 100%;
+		margin: 0 0 40px;
+
+		p {
+			font-size: 22px;
+			color: $white;
+			font-weight: 600;
+		}
+
+		.page-time {
+			position: absolute;
+			top: 10px;
+			right: 20px;
+
+			p {
+				font-size: 16px;
+				span {
+					color: $white;
+				}
+			}
+		}
+	}
+
+	.posts {
+		padding: 40px;
+
+		.post {
+			margin-bottom: 60px;
+
+			.post-title {
+				color: $orange;
+				font-weight: bold;
+				font-size: 42px;
+				font-family: $titleFontPrimary;
+			}
+
+			.post-content {
+				color: $marron;
+				font-size: 18px;
+			}
+		}
+
+
+	}
+}
+
+.appel-page {
+	.heading {
+		background-image: $appelBg;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		min-height: 680px;
+		padding: 80px;
+		width: 100%;
+		margin: 0 0 40px;
+
+		.title {
+			font-family: $titleFontPrimary;
+			font-weight: bold;
+			line-height: 1;
+			font-size: 60px;
+			color: $white
+		}
+		.subtitle {
+			line-height: 1.1;
+			padding: 4px;
+			font-weight: 600;
+			background-color: $orange;
+			font-size: 28px;
+			width: 360px;
+			color: $white;
+			max-width: 100%;
+		}
+		.name {
+			font-size: 18px;
+			font-family: $bodyFontSecondary;
+			margin: 0;
+		}
+		.jobtitle {
+			font-size: 18px;
+			color: $white;
+			font-family: $bodyFontSecondary;
+		}
+
+	}
+
+	.content-letter {
+		padding-bottom: 40px;
+
+		.btn-don {
+			display: block;
+			width: 500px;
+			max-width: 100%;
+			margin: 30px auto;
+			text-transform: uppercase;
+			font-size: 26px;
+		}
+		p {
+			color: $marron;
+			font-size: 18px;
+		}
+		.name {
+			color: $primary;
+			font-family: $bodyFontSecondary;
+			font-weight: 600;
+			margin: 0;
+		}
+	}
+}
+
 // ################ Mobile
 
-.home-mobile {
+.page-mobile {
 	padding-top: 90px;
-	
+
+	.posts {
+		padding: 10px;
+	}
 	nav {
 		position: fixed;
 		top: 0;
@@ -190,6 +519,10 @@ body {
 			margin-top: 5px;
 		}
 	}
+}
+
+.home-mobile {
+
 	.message-president{
 		padding: 20px;
 
@@ -200,6 +533,7 @@ body {
 
 
 	.bandeau-covid {
+		background-color: $marron;
 
 		p {
 			font-size: 12px;
@@ -209,17 +543,21 @@ body {
 	}
 
 	.posts {
-		padding: 10px;
 
 		.post {
 			margin-bottom: 40px;
 
 			.post-publication-time {
+				color: $orange;
 				margin: 10px 0;
 
 				span {
 					background-color: rgba(53, 66, 83, 0.1);
 					padding: 5px;
+
+					small {
+						color: $marron;
+					}
 				}
 			}
 
@@ -229,7 +567,9 @@ body {
 			}
 			.post-title {
 				font-weight: bold;
-				font-size: 22px;
+				font-size: 32px;
+				font-family: $titleFontPrimary;
+				color: $marron;
 			}
 
 			&.urgence .post-title {
@@ -239,11 +579,103 @@ body {
 				font-size: 16px;
 				padding-left: 15px;
 				border-left: 5px dotted $secondary;
+
+				p {
+					color: $marron;
+				}
 			}
 
 			&.urgence .post-content {
 				border-left: 5px dotted $urgence;
 			}
+		}
+	}
+}
+
+.faq-page-mobile {
+	.heading {
+		width: 100%;
+		margin: 0;
+		padding: 10px;
+
+		p {
+			color: $marron;
+		}
+	}
+
+	.post-publication-time {
+		color: $orange;
+		margin: 10px 0;
+
+		span {
+			background-color: rgba(53, 66, 83, 0.1);
+			padding: 5px;
+
+			small {
+				color: $marron;
+			}
+		}
+	}
+
+	.posts {
+		.post {
+			.post-title {
+				font-weight: bold;
+				font-size: 32px;
+				font-family: $titleFontPrimary;
+				color: $orange;
+			}
+			.post-content {
+				color: $marron;
+			}
+
+		}
+	}
+}
+
+.appel-mobile {
+	.heading {
+		margin: 0 0 40px;
+
+		.title {
+			font-family: $titleFontPrimary;
+			font-weight: bold;
+			line-height: 1;
+			font-size: 42px;
+			color: $orange;
+		}
+		.subtitle {
+			line-height: 1.1;
+			padding: 4px;
+			font-weight: 600;
+			background-color: $orange;
+			font-size: 28px;
+			width: 360px;
+			color: $white;
+			max-width: 100%;
+		}
+	}
+
+	.content-letter {
+		padding: 10px 10px 40px;
+
+		.btn-don {
+			display: block;
+			width: 500px;
+			max-width: 100%;
+			margin: 30px auto;
+			text-transform: uppercase;
+			font-size: 26px;
+		}
+		p {
+			color: $marron;
+			font-size: 18px;
+		}
+		.name {
+			color: $primary;
+			font-family: $bodyFontSecondary;
+			font-weight: 600;
+			margin: 0;
 		}
 	}
 }

@@ -5,7 +5,10 @@
 // Color system
 $white:         #fff !default;
 $black:         #000 !default;
-$primary:       #000 !default;
+$orange:        #EF5713 !default;
+$dark-orange:   #DB561B !default;
+$marron:        #564637 !default;
+$primary:       #56B7E1 !default;
 $secondary:     #CCC !default;
 $tertiary:      #EEE !default;
 $quaternary:    #FFF !default;
@@ -14,16 +17,19 @@ $urgence:       #E52645 !default;
 $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $theme-colors: map-merge(
-  (
-    "white":      $white,
-    "black":      $black,
-    "primary":    $primary,
-    "secondary":  $secondary,
-    "tertiary":   $tertiary,
-    "quaternary": $quaternary,
-    "urgence":    $urgence,
-  ),
-  $theme-colors
+                (
+                        "white":      $white,
+                        "black":      $black,
+                        "orange":      $orange,
+                        "dark-orange":      $dark-orange,
+                        "marron":      $marron,
+                        "primary":    $primary,
+                        "secondary":  $secondary,
+                        "tertiary":   $tertiary,
+                        "quaternary": $quaternary,
+                        "urgence":    $urgence,
+                ),
+                $theme-colors
 );
 
 
@@ -35,8 +41,10 @@ $backgroundColor: $white;
 $bodyColor: $primary;
 
 // Police
-$bodyFont: 'Montserrat', sans-serif;
-$bodyFontSecondary: 'Josefin Sans', sans-serif;
+$bodyFont: 'Roboto', sans-serif;
+$bodyFontSecondary: 'Roboto Condensed', sans-serif;
+$titleFontPrimary: 'Adopte Bold', sans-serif;
+$titleFontSecondary: 'Adopte', sans-serif;
 
 // Positionning
 $sidebarWidth: {{ site.data.configuration.sidebar_size_number }}px;
@@ -44,6 +52,25 @@ $sidebarWidth: {{ site.data.configuration.sidebar_size_number }}px;
 //background specifique
 $dateBg: url('{{ site.data.configuration.date_image }}');
 $urgenceBg: url('{{ site.data.configuration.urgence_image }}');
+$faqBg: url('{{ site.data.configuration.faq.background }}');
+$appelBg: url('{{ site.data.configuration.appel.background }}');
+
+@font-face {
+  font-family: 'Adopte Bold';
+  src: url('/assets/fonts/adopte_bold-webfont.woff2') format('woff2'),
+  url('/assets/fonts/adopte_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'Adopte';
+  src: url('/assets/fonts/adopte_regular-webfont.woff2') format('woff2'),
+  url('/assets/fonts/adopte_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 @import 'bootstrap/bootstrap';
 @import "main";

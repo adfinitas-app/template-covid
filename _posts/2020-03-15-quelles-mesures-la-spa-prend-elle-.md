@@ -11,4 +11,3 @@ En conformit&eacute; avec le plan d’action COVID-19 du gouvernement, la SPA, c
 
 Les animaux continueront d’&ecirc;tre nourris, soign&eacute;s et l’entretien des refuges perdurera. Les refuges ont presque tous atteint leur capacit&eacute; d’accueil maximale.
 
-&nbsp;<br>&nbsp;
