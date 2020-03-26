@@ -1,7 +1,7 @@
 ---
 date: 2020-03-20 12:00:00
 urgence_post: false
-title: Maintenir le contact par tous les moyens !
+title: Ne laissons pas nos animaux sans solutions
 insertion_social:
   - contenu_code_block:
 category: actualite
