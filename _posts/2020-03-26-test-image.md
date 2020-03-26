@@ -5,7 +5,7 @@ title: TEST IMAGE
 insertion_social:
   - contenu_code_block:
 images:
-  - gallery_image: 'https://via.placeholder.com/250x250'
+  - gallery_image: 'https://via.placeholder.com/450x250'
   - gallery_image: 'https://via.placeholder.com/250x250'
   - gallery_image: 'https://via.placeholder.com/250x250'
   - gallery_image: 'https://via.placeholder.com/250x250'
