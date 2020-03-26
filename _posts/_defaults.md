@@ -4,5 +4,7 @@ urgence_post: false
 title:
 insertion_social:
   - contenu_code_block:
+images:
+  - gallery_image:
 category:
 ---
