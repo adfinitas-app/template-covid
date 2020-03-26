@@ -6,5 +6,7 @@ insertion_social:
   - contenu_code_block:
 images:
   - gallery_image:
+insertion_video:
+  - video_code_block:
 category:
 ---
