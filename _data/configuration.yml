@@ -51,24 +51,24 @@ popup:
     contenu_html_code_block: |-
       <h1><small>Mentions légales</small></h1>
             <h2><small>Droits de propriété intellectuelle</small></h2>
-            <p>Le présent site est la propriété de {{ include.name }}, qui en est l'auteur au sens des articles L. 111.1 et suivants du Code de la propriété intellectuelle. Les photographies, textes, slogans, dessins, images, séquences animées sonores ou non ainsi que toutes œuvres intégrées dans le site sont la propriété de {{ include.name }} ou de tiers ayant autorisé {{ include.name }} à les utiliser. La reproduction, sur un support papier ou informatique, du site est autorisée sous réserve qu'elle soit strictement réservée à un usage personnel, excluant tout usage à des fins publicitaires et/ou commerciales et/ou d'informations, et qu'elle soit conforme aux dispositions de l'article L122-5 du Code de la Propriété Intellectuelle. A l'exception des dispositions ci-dessus, toute reproduction, représentation, utilisation ou modification, par quelque procédé que ce soit et sur quelque support que ce soit, de tout ou partie du site, de tout ou partie des contenus qui le composent, sans avoir obtenu l'autorisation préalable de {{ include.name }}, est strictement interdite et constitue un délit de contrefaçon.</p>
+            <p>Le présent site est la propriété de la Société Protectrice des Animau, qui en est l'auteur au sens des articles L. 111.1 et suivants du Code de la propriété intellectuelle. Les photographies, textes, slogans, dessins, images, séquences animées sonores ou non ainsi que toutes œuvres intégrées dans le site sont la propriété de la Société Protectrice des Animaux ou de tiers ayant autorisé la Société Protectrice des Animaux à les utiliser. La reproduction, sur un support papier ou informatique, du site est autorisée sous réserve qu'elle soit strictement réservée à un usage personnel, excluant tout usage à des fins publicitaires et/ou commerciales et/ou d'informations, et qu'elle soit conforme aux dispositions de l'article L122-5 du Code de la Propriété Intellectuelle. A l'exception des dispositions ci-dessus, toute reproduction, représentation, utilisation ou modification, par quelque procédé que ce soit et sur quelque support que ce soit, de tout ou partie du site, de tout ou partie des contenus qui le composent, sans avoir obtenu l'autorisation préalable de la Société Protectrice des Animaux, est strictement interdite et constitue un délit de contrefaçon.</p>
 
           <h2><small>Utilisation des données personnelles</small></h2>
-          <p>Aucune information personnelle n'est collectée à votre insu. Aucune information personnelle n'est cédée à des tiers. Vous pouvez consulter ce site sans révéler votre identité ou donner la moindre information vous concernant. Les informations que vous nous communiquerez seront traitées selon les dispositions légales applicables et notamment de la Loi "Informatique et Libertés" n°78-17 du 6 janvier 1978. <a href="#" data-open="politiques">Notre politique de protection des données personnelles</a> vous renseigne en détail sur les finalités de notre collecte des données et des fondements juridiques sur lesquels celle-si s'appuie.</p>
+          <p>Aucune information personnelle n'est collectée à votre insu. Aucune information personnelle n'est cédée à des tiers. Vous pouvez consulter ce site sans révéler votre identité ou donner la moindre information vous concernant. Les informations que vous nous communiquerez seront traitées selon les dispositions légales applicables et notamment de la Loi "Informatique et Libertés" n°78-17 du 6 janvier 1978. Notre politique de protection des données personnelles vous renseigne en détail sur les finalités de notre collecte des données et des fondements juridiques sur lesquels celle-si s'appuie.</p>
 
           <h2><small>Cookies</small></h2>
           <p>Lors de votre visite sur notre site, nous sommes susceptibles d'implanter un cookie dans votre ordinateur. Un cookie est un petit bloc de données envoyé à votre navigateur par un serveur web et stocké sur le disque dur de votre ordinateur. Le cookie ne nous permet pas de vous identifier personnellement. De manière générale, il nous permet d'enregistrer des informations relatives à la navigation de votre ordinateur sur notre site (les pages que vous avez consultées, la date et l'heure de la consultation, etc.) que nous pourrons lire lors de vos visites ultérieures. Vous pouvez naturellement vous opposer à l'enregistrement de cookies en configurant votre navigateur à partir des "Options" ou "Préférences" de celui-ci. Vous pouvez également supprimer les cookies à tout moment et individuellement en vous rapportant au manuel d'utilisation de votre ordinateur.</p>
 
           <h2><small>Liens hypertextes</small></h2>
-          <p>La mise en place d'un lien hypertexte vers notre site nécessite une autorisation préalable écrite. Faites votre demande à : {{ include.email }}. {{ include.name }} ne peut en aucun cas être tenu pour responsables de la mise à disposition des sites qui font l'objet d'un lien hypertexte à partir du site {{ include.url }} et ne peut supporter aucune responsabilité sur le contenu disponible sur ces sites ou à partir de ces sites.</p>
+          <p>La mise en place d'un lien hypertexte vers notre site nécessite une autorisation préalable écrite. Faites votre demande à : contact@la-spa.fr. La Société Protectrice des Animaux ne peut en aucun cas être tenu pour responsables de la mise à disposition des sites qui font l'objet d'un lien hypertexte à partir du site https://covid19.la-spa.fr et ne peut supporter aucune responsabilité sur le contenu disponible sur ces sites ou à partir de ces sites.</p>
        
           <h2><small>Editeur</small></h2>
-          <p>Ce site est édité par adfinitas, avec l'accord de {{ include.name }} et pour le compte de {{ include.name }}.</p>
+          <p>Ce site est édité par adfinitas, avec l'accord de la Société Protectrice des Animaux et pour le compte de la Société Protectrice des Animaux.</p>
           
           <h2><small>Directeur de la publication</small></h2>
-          <p>{{ include.directeur }},
+          <p>Madame Elise Loquetor,
               <br/>
-              {{ include.name }}.
+              La Société Protectrice des Animaux.
           </p>
           
           <h2><small>Hébergement du site</small></h2>
@@ -76,10 +76,8 @@ popup:
           <br/>Société par actions Simplifiée au capital de 50 000€
           
           <br/><br/><b>Siège social</b>
-          <br/>Parc d’Activités « Business Park »
-          <br/>Bâtiment A
-          <br/>87 rue du Molinel
-          <br/>59700 MARCQ EN BAROEUL
+          <br/>40 rue de l'Abbé Lemire
+          <br/>59110 La Madeleine
           <br/><b>Téléphone :</b> +33.(0)3.28.33.29.60 / Fax : +33.(0)3.28.04.52.41
           <br/><b>SIRET :</b> 432 326 601 00056
           
