@@ -1,31 +1,15 @@
-// const arrowElem = document.getElementById('arrow-down');
-// const contentElem = document.getElementById('click-to-expand');
-//
-// arrowElem.addEventListener('click', function() {
-//     this.classList.toggle('active');
-//
-//     if (contentElem.style.maxHeight && contentElem.style.maxHeight !== '0px') {
-//         contentElem.style.maxHeight = '0px';
-//     } else {
-//         contentElem.style.maxHeight = '2000px';
-//         contentElem.style.height = 'auto';
-//     }
-// })
-
 $(document).ready(() => {
     fillLink()
 
-    // if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        $(document).on('focus', 'input, textarea', function()
-        {
-            $('.btn-don-fixed-mobile').hide();
-        });
+    $(document).on('focus', 'input, textarea', function()
+    {
+        $('.btn-don-fixed-mobile').hide();
+    });
 
-        $(document).on('blur', 'input, textarea', function()
-        {
-            $('.btn-don-fixed-mobile').show();
-        });
-    // }
+    $(document).on('blur', 'input, textarea', function()
+    {
+        $('.btn-don-fixed-mobile').show();
+    });
 
 })
 
@@ -38,7 +22,6 @@ buttonFreeAmount.addEventListener('click', function(e) {
     var value = document.getElementById('inlineFormInputName2').value;
 
     form.setAttribute('target', form.getAttribute('target') + `$amount=${value}`);
-    console.log(form.getAttribute('target'))
     window.open(form.getAttribute('target'), '_blank');
 })
 
