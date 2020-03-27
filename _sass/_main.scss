@@ -249,7 +249,7 @@ body {
 			}
 		}
 
-		#newsletter-ok-mobile {
+		#newsletter-ok {
 			display: none;
 
 			p {
@@ -493,7 +493,7 @@ body {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
-		min-height: 565px;
+		min-height: 65vh;
 		padding: 80px;
 		position: relative;
 		width: 100%;
@@ -550,7 +550,7 @@ body {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
-		min-height: 680px;
+		min-height: 65vh;
 		padding: 80px;
 		width: 100%;
 		margin: 0 0 40px;
@@ -735,7 +735,7 @@ body {
 				p {
 					width: 300px;
 					max-width: 100%;
-					line-height: 0.7;
+					line-height: 1;
 					margin: 0 auto 15px;
 					color: $white;
 					font-family: $titleFontPrimary;
