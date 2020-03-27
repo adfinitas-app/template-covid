@@ -17,7 +17,7 @@ sidebar:
     once:
       activate: true
       texte: Je fais un don
-      gift_url: 'https://soutenir.la-spa.fr/'
+      gift_url: ' https://soutenir.la-spa.fr/b?cid=220'
       amount1_number: 100
       amount2_number: 250
       amount3_number: 500
