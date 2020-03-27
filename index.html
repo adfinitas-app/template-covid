@@ -18,6 +18,11 @@ title: "En direct"
                       <div class="post-publication-time"><span>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span></div>
                       <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% endif %}">{{ post.title }}</h1>
                       <div class="post-content">{{ post.content }}</div>
+                      {% for video in post.insertion_video %}
+                          {% if video.video_code_block %}
+                            <div class="embed-responsive embed-responsive-16by9">{{ video.video_code_block }}</div>
+                          {% endif %}
+                        {% endfor %}
                       <div class="container-images">
                           {% for image in post.images %}
                           <img src="{{ image.gallery_image }}" />
@@ -26,7 +31,7 @@ title: "En direct"
                      <div class="row">
                           {% for social in post.insertion_social %}
                             {% if social.contenu_code_block %}
-                            <div class="col">
+                            <div class="col embed-responsive embed-responsive-16by9">
                                   {{ social.contenu_code_block }}
                             </div>
                             {% endif %}
