@@ -11,7 +11,8 @@ function sendData() {
         },
     }
 
-    makeCorsRequest(payload)
+    console.log(payload)
+    // makeCorsRequest(payload)
 }
 
 

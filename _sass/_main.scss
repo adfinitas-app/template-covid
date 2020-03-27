@@ -249,7 +249,7 @@ body {
 			}
 		}
 
-		#newsletter-ok {
+		#newsletter-ok-mobile {
 			display: none;
 
 			p {
@@ -511,8 +511,10 @@ body {
 			right: 20px;
 
 			p {
+				font-weight: normal;
 				font-size: 16px;
 				span {
+					font-weight: bold;
 					color: $white;
 				}
 			}
@@ -747,7 +749,7 @@ body {
 					}
 				}
 
-				#newsletter-ok {
+				#newsletter-ok-mobile {
 					display: none;
 
 					p {

@@ -29,6 +29,7 @@ buttonFreeAmount.addEventListener('click', function(e) {
     window.open(form.getAttribute('target'), '_blank');
 })
 
+
 var buttonNewsletter = document.getElementById('button-newsletter');
 
 buttonNewsletter.addEventListener('click', function(e) {
@@ -39,6 +40,25 @@ buttonNewsletter.addEventListener('click', function(e) {
 
     if (validateEmail(input.value)) {
         var newsletterOk = document.getElementById('newsletter-ok');
+        form.style.display = 'none';
+        newsletterOk.style.display = 'block';
+        sendData()
+    }
+    else
+        input.classList.add("red-border");
+
+})
+
+var buttonNewsletterMobile = document.getElementById('button-newsletter-mobile');
+
+buttonNewsletterMobile.addEventListener('click', function(e) {
+    e.preventDefault()
+    var form = document.getElementById("form-newsletter-mobile");
+    var input = document.getElementById('input-newsletter-mobile');
+    input.classList.remove("red-border");
+
+    if (validateEmail(input.value)) {
+        var newsletterOk = document.getElementById('newsletter-ok-mobile');
         form.style.display = 'none';
         newsletterOk.style.display = 'block';
         sendData()
