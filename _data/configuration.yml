@@ -47,11 +47,11 @@ footer:
       link: 'https://twitter.com/SPA_Officiel'
 popup:
   cgu:
-    titre: CGU
-    contenu_html: ...
+    titre: Mentions légales
+    contenu_html_code_block: ...
   privacy:
     titre: Données personnelles
-    contenu_html: ...
+    contenu_html_code_block: ...
 faq:
   background: /assets/img/bg-faq.png
 appel:
