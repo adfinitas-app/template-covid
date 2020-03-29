@@ -13,7 +13,7 @@ $(document).ready(() => {
 
     $('#input-newsletter-mobile').focus(() =>
     {
-        $('#form-newsletter-mobile').css({'position':'fixed','bottom':'0'});
+        $('#form-newsletter-mobile').css({'position':'fixed','bottom':'10px', 'left': '50%', 'transform': 'translateX(-50%)'});
     });
     $('#input-newsletter-mobile').blur(() =>
     {
