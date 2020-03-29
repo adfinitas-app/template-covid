@@ -17,7 +17,7 @@ $(document).ready(() => {
     });
     $('#input-newsletter-mobile').blur(() =>
     {
-        $('#form-newsletter-mobile').css({'position':'static'});
+        $('#form-newsletter-mobile').css({'position':'static', 'transform': 'none'});
     });
 
 })
