@@ -14,13 +14,13 @@
     {% if site.data.configuration.sidebar.gift_grid.once.activate %}
     <div class="row p-2 no-gutters">
       <div class="col p-1">
-        <a class="btn w-100 link-don" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount1_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount1_number }}€</a>
+        <a class="btn w-100 link-don" target="_blank" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount1_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount1_number }}€</a>
       </div>
       <div class="col p-1">
-        <a class="btn w-100 link-don" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount2_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount2_number }}€</a>
+        <a class="btn w-100 link-don" target="_blank" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount2_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount2_number }}€</a>
       </div>
       <div class="col p-1">
-        <a class="btn w-100 link-don" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount3_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount3_number }}€</a>
+        <a class="btn w-100 link-don" target="_blank" href="{{ site.data.configuration.sidebar.gift_grid.once.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.once.amount3_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.once.amount3_number }}€</a>
       </div>
     </div>
     <div class="p-2 no-gutters">
@@ -40,13 +40,13 @@
     </div>
     <div class="row p-2 no-gutters">
       <div class="col p-1">
-        <a class="btn link-don w-100" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.regular.amount1_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount1_number }}€</a>
+        <a class="btn link-don w-100" target="_blank" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.regular.amount1_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount1_number }}€</a>
       </div>
       <div class="col p-1">
-        <a class="btn link-don w-100" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.regular.amount2_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount2_number }}€</a>
+        <a class="btn link-don w-100" target="_blank" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.regular.amount2_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount2_number }}€</a>
       </div>
       <div class="col p-1">
-        <a class="btn link-don w-100" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.regular.amount3_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount3_number }}€</a>
+        <a class="btn link-don w-100" target="_blank" href="{{ site.data.configuration.sidebar.gift_grid.regular.gift_url }}&amount={{ site.data.configuration.sidebar.gift_grid.regular.amount3_number }}00" role="button">{{ site.data.configuration.sidebar.gift_grid.regular.amount3_number }}€</a>
       </div>
     </div>
     <div class="p-2 no-gutters">
@@ -75,7 +75,7 @@
       <button type="submit" class="w-15 btn btn-primary mb-2 button-newsletter" id="button-newsletter">OK</button>
     </form>
     <div id="newsletter-ok">
-      <p>Vous inscription a été prise en compte.</p>
+      <p>{{ site.data.configuration.sidebar.newsletter.message_ok }}</p>
     </div>
   </div>
 </aside>

@@ -21,7 +21,7 @@ buttonFreeAmount.addEventListener('click', function(e) {
     var form = document.getElementById("form-free-amount");
     var value = document.getElementById('inlineFormInputName2').value;
 
-    form.setAttribute('target', form.getAttribute('target') + `$amount=${value}`);
+    form.setAttribute('target', form.getAttribute('target') + `&amount=${value}00`);
     window.open(form.getAttribute('target'), '_blank');
 })
 

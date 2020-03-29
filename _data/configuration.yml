@@ -35,6 +35,7 @@ sidebar:
   newsletter:
     title: Suivez le direct de la SPA
     subtitle: Abonnez-vous à nos notificationspour ne rien manquer de nos actualités
+    message_ok: Votre inscription a été prise en compte
 footer:
   rs:
     fb:
