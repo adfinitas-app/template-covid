@@ -716,6 +716,10 @@ body {
 				padding-top: 40px;
 				padding-bottom: 40px;
 
+				form {
+					position: static;
+				}
+
 				input {
 					color: $marron;
 					width: 85%;

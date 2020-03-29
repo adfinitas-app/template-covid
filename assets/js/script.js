@@ -11,8 +11,16 @@ $(document).ready(() => {
         $('.btn-don-fixed-mobile').show();
     });
 
-})
+    $('#input-newsletter-mobile').focus(() =>
+    {
+        $('#form-newsletter-mobile').css({'position':'fixed','bottom':'0'});
+    });
+    $('#input-newsletter-mobile').blur(() =>
+    {
+        $('#form-newsletter-mobile').css({'position':'static'});
+    });
 
+})
 
 var buttonFreeAmount = document.getElementById('button-free-amount');
 
