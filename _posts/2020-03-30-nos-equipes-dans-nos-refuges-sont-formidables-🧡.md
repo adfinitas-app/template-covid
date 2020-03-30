@@ -8,7 +8,7 @@ images:
   - gallery_image:
 insertion_video:
   - video_code_block:
-category:
+category: actualite
 ---
 
 Comme vous pouvez le voir sur les r&eacute;seaux sociaux, l’activit&eacute; continue de battre son plein dans nos refuges \! Entre les balades, les soins et les repas, jamais le temps de s’ennuyer \! Que diriez vous de vivre l’exp&eacute;rience en refuge ? 😉💪
