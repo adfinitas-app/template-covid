@@ -12,6 +12,21 @@ body {
 	visibility: hidden !important;
 }
 
+.video-responsive {
+	overflow:hidden;
+	padding-bottom:100%;
+	position:relative;
+	height:0;
+}
+
+.video-responsive iframe {
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
 .navbar {
 	padding: 0;
 	background-color: $orange;
@@ -113,7 +128,7 @@ body {
 	width: $sidebarWidth;
 
 	> div {
-		padding: 20px;
+		padding: 20px 20px 0;
 		width: 100%;
 		max-width: 100%;
 	}
@@ -175,6 +190,7 @@ body {
 		font-size: 12px;
 		text-align: center;
 		color: $marron;
+		margin: 0;
 	}
 
 	.monthly-gift-container {
@@ -368,7 +384,7 @@ body {
 					/* two items */
 					img:first-child:nth-last-child(2),
 					img:first-child:nth-last-child(2) ~ img {
-							width: 49%;
+						width: 49%;
 
 					}
 
@@ -398,7 +414,7 @@ body {
 					/* four items */
 					img:first-child:nth-last-child(4),
 					img:first-child:nth-last-child(4) ~ img {
-						width: 48%;
+						width: 49%;
 						margin-bottom: 5px;
 					}
 				}

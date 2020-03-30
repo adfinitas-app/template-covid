@@ -1,22 +1,14 @@
 $(document).ready(() => {
     fillLink()
 
-    $(document).on('focus', 'input, textarea', function()
-    {
-        $('.btn-don-fixed-mobile').hide();
-    });
-
-    $(document).on('blur', 'input, textarea', function()
-    {
-        $('.btn-don-fixed-mobile').show();
-    });
-
     $('#input-newsletter-mobile').focus(() =>
     {
+        $('.btn-don-fixed-mobile').hide();
         $('#form-newsletter-mobile').css({'position':'fixed','bottom':'10px', 'left': '50%', 'transform': 'translateX(-50%)'});
     });
-    $('#input-newsletter-mobile').blur(() =>
+    $('#form-newsletter-mobile').blur(() =>
     {
+        $('.btn-don-fixed-mobile').show();
         $('#form-newsletter-mobile').css({'position':'static', 'transform': 'none'});
     });
 
@@ -34,11 +26,10 @@ buttonFreeAmount.addEventListener('click', function(e) {
 })
 
 
-var buttonNewsletter = document.getElementById('button-newsletter');
+var form = document.getElementById("form-newsletter");
 
-buttonNewsletter.addEventListener('click', function(e) {
+form.addEventListener('submit', function(e) {
     e.preventDefault()
-    var form = document.getElementById("form-newsletter");
     var input = document.getElementById('input-newsletter');
     input.classList.remove("red-border");
 
@@ -53,17 +44,16 @@ buttonNewsletter.addEventListener('click', function(e) {
 
 })
 
-var buttonNewsletterMobile = document.getElementById('button-newsletter-mobile');
+var formMobile = document.getElementById("form-newsletter-mobile");
 
-buttonNewsletterMobile.addEventListener('click', function(e) {
+formMobile.addEventListener('submit', function(e) {
     e.preventDefault()
-    var form = document.getElementById("form-newsletter-mobile");
     var input = document.getElementById('input-newsletter-mobile');
     input.classList.remove("red-border");
 
     if (validateEmail(input.value)) {
         var newsletterOk = document.getElementById('newsletter-ok-mobile');
-        form.style.display = 'none';
+        formMobile.style.display = 'none';
         newsletterOk.style.display = 'block';
         sendData()
     }
