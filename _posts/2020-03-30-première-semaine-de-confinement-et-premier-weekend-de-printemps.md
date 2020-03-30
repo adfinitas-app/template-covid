@@ -8,6 +8,8 @@ images:
   - gallery_image:
   - gallery_image: /assets/89920790_3004659419590070_307511798603448320_n.jpg
   - gallery_image: /assets/90169633_3004659759590036_7976225783066656768_n.jpg
+  - gallery_image: /assets/90208112_3004659526256726_1808336181151137792_n.jpg
+  - gallery_image: /assets/90523412_3004659652923380_4471520868823990272_n.jpg
 insertion_video:
   - video_code_block:
 category: actualite
