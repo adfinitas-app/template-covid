@@ -5,8 +5,6 @@ title: Première semaine de confinement et premier weekend de printemps
 insertion_social:
   - contenu_code_block:
 images:
-  - gallery_image: /Chien 1.jpg
-  - gallery_image: /uploads/Chat1 (2).jpg
   - gallery_image: /uploads/chat1.jpg
 insertion_video:
   - video_code_block:
@@ -17,4 +15,4 @@ Nous sommes certes en crise sanitaire, mais nos animaux sont choy&eacute;s par l
 
 Nos &eacute;quipes redoublent en c&acirc;lins, jeux et en balades… 🐾⚕ Et tout cela en respectant scrupuleusement les consignes &eacute;dict&eacute;es par les experts sant&eacute; et le gouvernement.
 
-&nbsp;
+![](/uploads/chien-1.jpg){: width="300" height="300"}&nbsp;&nbsp;![](/uploads/chat1-2.jpg){: width="300" height="300"}
