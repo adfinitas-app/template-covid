@@ -7,6 +7,7 @@ insertion_social:
 images:
   - gallery_image:
   - gallery_image: /assets/89920790_3004659419590070_307511798603448320_n.jpg
+  - gallery_image: /assets/90169633_3004659759590036_7976225783066656768_n.jpg
 insertion_video:
   - video_code_block:
 category: actualite
@@ -14,6 +15,6 @@ category: actualite
 
 Nous sommes certes en crise sanitaire, mais nos animaux sont choy&eacute;s par leurs papas et mamans de refuges 🐶 🐱 🐭 🐹 🐰
 
-Nos &eacute;quipes redoublent en c&acirc;lins, jeux et en balades... 🐾⚕ Et tout cela en respectant scrupuleusement les consignes &eacute;dict&eacute;es par les experts sant&eacute; et le gouvernement.
+Nos &eacute;quipes redoublent en c&acirc;lins, jeux et en balades… 🐾⚕ Et tout cela en respectant scrupuleusement les consignes &eacute;dict&eacute;es par les experts sant&eacute; et le gouvernement.
 
 &nbsp;
