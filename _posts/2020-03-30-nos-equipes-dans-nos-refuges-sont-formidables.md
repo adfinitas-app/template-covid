@@ -1,7 +1,7 @@
 ---
 date: 2020-03-30 12:00:00
 urgence_post: false
-title: "NOS EQUIPES DANS NOS REFUGES SONT FORMIDABLES  \U0001F9E1"
+title: NOS EQUIPES DANS NOS REFUGES SONT FORMIDABLES
 insertion_social:
   - contenu_code_block:
 images:
