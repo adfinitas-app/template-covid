@@ -1,5 +1,5 @@
 ---
-date: 2020-03-30 00:00:00
+date: 2020-03-30 12:00:00
 urgence_post: false
 title: Première semaine de confinement et premier weekend de printemps
 insertion_social:
