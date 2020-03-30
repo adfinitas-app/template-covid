@@ -5,7 +5,7 @@ title: "NOS EQUIPES DANS NOS REFUGES SONT FORMIDABLES  \U0001F9E1"
 insertion_social:
   - contenu_code_block:
 images:
-  - gallery_image: 'https://via.placeholder.com/250x250'
+  - gallery_image:
 insertion_video_facebook:
   - video_code_block:
 insertion_video_youtube:
