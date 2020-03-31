@@ -73,7 +73,8 @@ body {
 				color: $marron;
 				font-family: $bodyFontSecondary;
 				font-weight: 700;
-				font-size: 22px;
+				font-size: 16px;
+				line-height: 1em;
 
 				&:hover {
 					color: $white !important;
@@ -555,10 +556,15 @@ body {
 //NEWSLETTER
 .newsletter {
 	p {
-		font-size: 22px;
+		font-size: 14px;
 		font-family: $bodyFont;
 		color: white;
 		font-weight: bold;
+		line-height: 1em;
+	}
+
+	form {
+		flex-flow: row;
 	}
 
 	input {
