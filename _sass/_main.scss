@@ -133,7 +133,46 @@ body {
 		max-width: 100%;
 	}
 
-	a.btn {
+	.je-donne {
+		font-weight: bold;
+		font-size: 18px;
+		letter-spacing: 0.01em;
+		color: $marron;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 0;
+	}
+
+	.don-frequency {
+		font-weight: bold;
+		font-size: 18px;
+		letter-spacing: 0.01em;
+		color: $marron;
+		text-align: center;
+		text-transform: uppercase; 
+	}
+
+	.custom-control-label::before {
+		top: -20px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.custom-control-label::after {
+		top: -20px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.custom-control-input[name="don-frequency"] {
+		top: -20px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.flex-1 {
+		flex: 1;
+	}
+
+	.btn.link-don {
 		font-family: $bodyFontSecondary;
 		font-size: 20px;
 		font-weight: bold;
@@ -142,7 +181,7 @@ body {
 		border: 1px solid $primary;
 		background: $white;
 
-		&:hover {
+		&:hover, &.active {
 			background-color: $primary;
 			color: $white !important;
 			transform: none !important;
@@ -153,7 +192,7 @@ body {
 		}
 	}
 
-	#form-free-amount {
+	.form-free-amount {
 		input {
 			font-size: 14px;
 			color: $marron;
@@ -162,7 +201,7 @@ body {
 			border-radius: 10px
 		}
 
-		button {
+		.button-free-amount {
 			background-color: $primary;
 			color: $white;
 			text-transform: uppercase ;
@@ -191,6 +230,11 @@ body {
 		text-align: center;
 		color: $marron;
 		margin: 0;
+
+		.calculated-amount-container {
+			color: $primary;
+			font-weight: bold;
+		}
 	}
 
 	.monthly-gift-container {
@@ -225,58 +269,6 @@ body {
 		}
 	}
 
-	.newsletter {
-		width: 100%;
-		text-align: center;
-		background-color: #EDEDED;
-		padding-top: 40px;
-		padding-bottom: 40px;
-
-		input {
-			color: $marron;
-			width: 85%;
-			border-radius: 10px 0 0 10px;
-
-			&.red-border {
-				border: 1px solid red;
-			}
-		}
-		button {
-			border-radius: 0 10px 10px 0;
-			width: 15%;
-			color: $white;
-			padding: .375rem .55rem;
-		}
-
-		p {
-			width: 300px;
-			max-width: 100%;
-			line-height: 0.9;
-			margin: 0 auto 15px;
-			color: $marron;
-			font-family: $titleFontPrimary;
-			font-weight: bold;
-			font-size: 32px;
-
-			span {
-				font-family: $bodyFont;
-				font-weight: normal;
-				font-size: 14px;
-			}
-		}
-
-		#newsletter-ok {
-			display: none;
-
-			p {
-				font-family: $bodyFont;
-				line-height: 1.2;
-				color: $marron;
-				font-size: 22px;
-				font-weight: bold;
-			}
-		}
-	}
 }
 
 .content {
@@ -559,6 +551,47 @@ body {
 
 	}
 }
+
+//NEWSLETTER
+.newsletter {
+	p {
+		font-size: 22px;
+		font-family: $bodyFont;
+		color: white;
+		font-weight: bold;
+	}
+
+	input {
+		color: $marron;
+		width: 85%;
+		border-radius: 10px 0 0 10px;
+
+		&.red-border {
+			border: 1px solid red;
+		}
+	}
+	button {
+		border-radius: 0 10px 10px 0;
+		width: 15%;
+		color: $white;
+		padding: .375rem .55rem;
+	}
+
+	#newsletter-ok {
+		display: none;
+
+		p {
+			font-family: $bodyFont;
+			line-height: 1.2;
+			color: white;
+			font-size: 22px;
+			font-weight: bold;
+			margin-bottom: 0;
+		}
+		
+	}
+}
+//NEWSLETTER
 
 .appel-page {
 	.heading {

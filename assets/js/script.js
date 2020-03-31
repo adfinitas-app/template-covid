@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    fillLink()
+    //fillLink()
 
     $('#input-newsletter-mobile').focus(() =>
     {
@@ -14,16 +14,16 @@ $(document).ready(() => {
 
 })
 
-var buttonFreeAmount = document.getElementById('button-free-amount');
+// var buttonFreeAmount = document.getElementById('button-free-amount');
 
-buttonFreeAmount.addEventListener('click', function(e) {
-    e.preventDefault()
-    var form = document.getElementById("form-free-amount");
-    var value = document.getElementById('inlineFormInputName2').value;
+// buttonFreeAmount.addEventListener('click', function(e) {
+//     e.preventDefault()
+//     var form = document.getElementById("form-free-amount");
+//     var value = document.getElementById('inlineFormInputName2').value;
 
-    form.setAttribute('target', form.getAttribute('target') + `&amount=${value}00`);
-    window.open(form.getAttribute('target'), '_blank');
-})
+//     form.setAttribute('target', form.getAttribute('target') + `&amount=${value}00`);
+//     window.open(form.getAttribute('target'), '_blank');
+// })
 
 
 var form = document.getElementById("form-newsletter");
@@ -36,6 +36,8 @@ form.addEventListener('submit', function(e) {
     if (validateEmail(input.value)) {
         var newsletterOk = document.getElementById('newsletter-ok');
         form.style.display = 'none';
+        var newsletterTitle = document.getElementById('newsletter-title');
+        newsletterTitle.style.display = 'none';
         newsletterOk.style.display = 'block';
         sendData()
     }
