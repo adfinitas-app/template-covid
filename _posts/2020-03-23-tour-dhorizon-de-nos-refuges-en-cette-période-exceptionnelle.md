@@ -13,7 +13,7 @@ category: actualite
 
 * **Au Grand Refuge, les pensionnaires se r&eacute;veillent et les plus jeunes attendent (im)patiemment que leurs mamans et leurs papas &agrave; deux pattes viennent s'occuper d'eux \!**Quoi de mieux qu'un bon biberon pour commencer la journ&eacute;e ?&nbsp;
 
-\[2 ou 3 Photos\]
+![](/uploads/grand-refuge-okbis.jpg){: width="266" height="200"}&nbsp;&nbsp;![](/uploads/grand-refuge-ok2bis.jpg){: width="266" height="200"}
 
 * **Au Refuge de Poulainville, les balades sont au rendez-vous d&egrave;s le matin \! De l'exercice, oui, mais en toute s&eacute;curit&eacute; \!&nbsp;**Les chiens s'amusent tellement en balade qu'ils ne veulent plus rentrer ? Au refuge de Vaux-le-P&eacute;nil, ils ont la solution : "On a Rigolus qui est tr&egrave;s stress&eacute; &agrave; l'id&eacute;e de rentrer dans son box apr&egrave;s une sortie. J'ai du coup dispos&eacute; des saucisses sur le trajet jusqu'au box et dedans au sol et de la "vache qui rit" sur les murs \!" explique Sigrid. Miam \! On fait aussi un chat-lut aux chats, qui n'en demandent pas moins \!&nbsp;
 
