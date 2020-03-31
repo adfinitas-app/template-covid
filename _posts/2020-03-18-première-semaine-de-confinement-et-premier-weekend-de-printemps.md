@@ -11,9 +11,7 @@ insertion_video:
 category: actualite
 ---
 
-Nous sommes certes en crise sanitaire, mais nos animaux sont choy&eacute;s par leurs papas et mamans de refuges 🐶 🐱 🐭 🐹 🐰
-
-Nos &eacute;quipes redoublent en c&acirc;lins, jeux et en balades… 🐾⚕ Et tout cela en respectant scrupuleusement les consignes &eacute;dict&eacute;es par les experts sant&eacute; et le gouvernement.
+Nous sommes certes en crise sanitaire, mais nos animaux sont choy&eacute;s par leurs papas et mamans de refuges \! Nos &eacute;quipes redoublent en c&acirc;lins, jeux et en balades… Et tout cela en respectant scrupuleusement les consignes &eacute;dict&eacute;es par les experts sant&eacute; et le gouvernement.
 
 ![](/uploads/chien-1.jpg){: width="300" height="300"}&nbsp;&nbsp;![](/uploads/chat1-2.jpg){: width="300" height="300"}
 
