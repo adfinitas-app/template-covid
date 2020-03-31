@@ -38,15 +38,3 @@ category: actualite
 * **Au Refuge de Vaux-le-P&eacute;nil c'est le grand nettoyage de Printemps \!&nbsp;**L'hygi&egrave;ne et le bien-&ecirc;tre animal avant tout \!
 
 \[2 ou 3 Photos\]
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
