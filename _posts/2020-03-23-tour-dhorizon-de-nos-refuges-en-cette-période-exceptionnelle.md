@@ -1,5 +1,5 @@
 ---
-date: 2020-03-15 12:00:00
+date: 2020-03-23 12:00:00
 urgence_post: false
 title: Tour d'horizon de nos refuges en cette période exceptionnelle
 insertion_social:
