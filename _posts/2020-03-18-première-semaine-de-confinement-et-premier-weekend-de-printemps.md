@@ -15,4 +15,4 @@ Nous sommes certes en crise sanitaire, mais nos animaux sont choy&eacute;s par l
 
 ![](/uploads/chien-1.jpg){: width="300" height="300"}&nbsp;&nbsp;![](/uploads/chat1-2.jpg){: width="300" height="300"}
 
-![](/uploads/chat1-1.jpg){: width="250" height="250"}&nbsp;&nbsp;![](/uploads/chiens-2.jpg){: width="300" height="300"}
+![](/uploads/chatok1.jpg){: width="300" height="300"}&nbsp;&nbsp;![](/uploads/chiens-2.jpg){: width="300" height="300"}
