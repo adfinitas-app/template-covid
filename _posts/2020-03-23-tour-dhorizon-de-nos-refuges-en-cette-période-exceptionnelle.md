@@ -9,8 +9,6 @@ images:
 insertion_video:
   - video_code_block:
 category: actualite
-tag: "COMMENT NOUS AIDER"
-
 ---
 
 * **Au Refuge de Vaux-le-P&eacute;nil c'est le grand nettoyage de Printemps :** L'hygi&egrave;ne et le bien-&ecirc;tre animal avant tout \!

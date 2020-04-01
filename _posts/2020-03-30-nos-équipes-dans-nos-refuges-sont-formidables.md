@@ -15,7 +15,6 @@ insertion_video_youtube:
       allow="accelerometer; autoplay; encrypted-media; gyroscope;
       picture-in-picture" allowfullscreen></iframe>
 category: actualite
-tag: "COMMENT NOUS AIDER"
 
 ---
 
