@@ -1,5 +1,5 @@
 ---
-date: 2020-03-15 12:00:00
+date: 2020-03-31 12:00:00
 urgence_post: false
 title: >-
   LE GEL HYDROALCOOLIQUE, LA JAVEL ET LES DÉTERGENTS SONT-ILS À PROSCRIRE POUR
