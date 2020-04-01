@@ -17,7 +17,7 @@ category: faq
 * [Le gel hydroalcoolique, la javel et les d&eacute;tergents sont-ils &agrave; proscrire pour la d&eacute;sinfection de mes animaux ?&nbsp;](/faq/2020/03/31/le-gel-hydroalcoolique-la-javel-et-les-d%C3%A9tergents-sont-ils-%C3%A0-proscrire-pour-la-d%C3%A9sinfection-de-mes-animaux.html)
 * [Dois-je prot&eacute;ger mon animal ?&nbsp;](/faq/2020/03/31/dois-je-prot%C3%A9ger-mon-animal.html)
 * [Dois-je prendre des pr&eacute;cautions avec mon animal ?&nbsp;](/faq/2020/03/31/dois-je-prendre-des-pr%C3%A9cautions-avec-mon-animal.html)
-* Puis-je laisser sortir mon chat ?&nbsp;
+* [Puis-je laisser sortir mon chat ?&nbsp;](/faq/2020/03/31/puis-je-laisser-sortir-mon-chat.html)
 * Dois-je abandonner ou tuer mon animal ?&nbsp;
 * Les rats et les NAC sont-ils de porteurs interm&eacute;diaires comme pour la peste ?&nbsp;
 * Puis-je promener mon animal ?
