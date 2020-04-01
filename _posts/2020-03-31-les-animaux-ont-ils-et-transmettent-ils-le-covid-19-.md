@@ -11,8 +11,6 @@ insertion_video:
 category: faq
 ---
 
-**LES ANIMAUX ONT-ILS ET TRANSMETTENT-ILS LE COVID-19 ?**
-
 **NON \! Ils ne l’ont pas, et ils ne le transmettent pas \!**
 
 L’Organisation Mondiale de la Sant&eacute; indique, qu’&agrave; ce jour, aucun &eacute;l&eacute;ment ne permet de penser que les animaux de compagnie sont impliqu&eacute;s dans la circulation du virus.
