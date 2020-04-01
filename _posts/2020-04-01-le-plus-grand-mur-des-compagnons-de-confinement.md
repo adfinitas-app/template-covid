@@ -12,7 +12,7 @@ insertion_video:
 category: actualite
 ---
 
-**Parce qu’ensemble on est plus forts \!\!&nbsp;**😉🐶🙂🐱
+**[Parce qu’ensemble on est plus forts \!\!](https://monanimaletmoi.la-spa.fr)&nbsp;**😉🐶🙂🐱
 
 Cr&eacute;ons le plus grand mur des compagnons de confinement \! 💪Pour lutter collectivement contre les fausses rumeurs envers les animaux, inciter &agrave; rester chez soi et tuer le temps et le virus de concert \! 💪
 
