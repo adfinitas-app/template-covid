@@ -6,78 +6,97 @@ contenu_html: >-
   r&eacute;pondre &agrave; toutes les questions que le public pourrait se poser
   au sujet de cette situation exceptionnelle en lien avec les animaux de
   compagnie, ainsi que le fonctionnement limit&eacute; de nos refuges, Maisons
-  SPA et dispensaires.</p>
+  SPA et dispensaires.
+  </p>
 ---
 
 {%- include progress-bar.html -%}
 
-  <!-- MOBILE -->
-  <div class="d-md-none page-mobile faq-page-mobile">
-      {%- include sidebar_mobile.html -%}
-
-    <div class="row heading">
-            {{ page.contenu_html }}
-      </div>
-      <section class="posts">
-                  {% for post in site.categories.faq %}
-                  <article class="post {% if post.urgence_post %}urgence{% endif %}">
-                      <div class="post-publication-time"><span>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span></div>
-                      <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% endif %}">{{ post.title }}</h1>
-                      <div class="post-content">{{ post.content }}</div>
-                      {% for social in post.insertion_social %}
-                      <div class="">{{ social.contenu_code_block }}</div>
-                      {% endfor %}
-                  </article>
-                  {% endfor %}
-      </section>
+<!-- MOBILE -->
+<div class="d-md-none page-mobile faq-page-mobile">
+  {%- include sidebar_mobile.html -%}
+  
+  <div class="row heading">
+    {{ page.contenu_html }}
   </div>
-  <!-- END MOBILE -->
+  <section class="posts">
+    {% for post in site.categories.faq %}
+    <article class="post {% if post.urgence_post %}urgence{% endif %}">
+      <div class="post-publication-time"><span>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span></div>
+      <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% endif %}">{{ post.title }}</h1>
+      <div class="post-content">{{ post.content }}</div>
+      {% for social in post.insertion_social %}
+      <div class="">{{ social.contenu_code_block }}</div>
+      {% endfor %}
+    </article>
+    {% endfor %}
+  </section>
+</div>
+<!-- END MOBILE -->
 
-  <!--DESKTOP-->
-  <div class="d-none d-md-block faq-page">
-
-      <!--SIDEBAR-->
-      {%- include sidebar_desktop.html -%}
-      <!--END SIDEBAR-->
-
-      <div class="content">
-
-        <!-- NAVBAR DESKTOP -->
-          {%- include navbar_desktop.html -%}
-        <!-- NAVBAR DESKTOP END -->
-
-          <div class="">
-              <div class="row heading">
-                  <div class="col-lg-6 col-md-7 col-sm-8">
-                      <p class="">{{ page.contenu_html }}</p>
-                  </div>
-                  <div class="page-time">
-                      <p class="">
-                          {{page.title}} - Dernière mise à jour le
-                          <span class="last-update-time text-condensed">{{ page.last_modified_at | date: '%d.%m.%Y' }}</span>
-                      </p>
-                  </div>
-              </div>
-            </div>
-              <section class="row posts">
-
-                <div class="col">
-                  {% for post in site.categories.faq %}
-                  <article class="post {% if post.urgence_post %}urgence{% endif %}">
-                      <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% endif %}">{{ post.title }}</h1>
-                      <div class="post-content">{{ post.content }}</div>
-                      {% for social in post.insertion_social %}
-                      <div class="">{{ social.contenu_code_block }}</div>
-                      {% endfor %}
-                  </article>
-                  {% endfor %}
-                </div>
-
-              </section>
-          </div>
-
-          <!--SIDEBAR-->
-          {%- include content_footer.html -%}
-          <!--END SIDEBAR-->
+<!--DESKTOP-->
+<div class="d-none d-md-block faq-page">
+  
+  <!--SIDEBAR-->
+  {%- include sidebar_desktop.html -%}
+  <!--END SIDEBAR-->
+  
+  <div class="content">
+    
+    <!-- NAVBAR DESKTOP -->
+    {%- include navbar_desktop.html -%}
+    <!-- NAVBAR DESKTOP END -->
+    
+    <div class="">
+      <div class="row heading">
+        <div class="col-lg-6 col-md-7 col-sm-8">
+          <p class="">{{ page.contenu_html }}</p>
+        </div>
+        <div class="page-time">
+          <p class="">
+            {{page.title}} - Dernière mise à jour le
+            <span class="last-update-time text-condensed">{{ page.last_modified_at | date: '%d.%m.%Y' }}</span>
+          </p>
+        </div>
       </div>
-  <!-- END DESKTOP-->
+    </div>
+    
+    <!-- SUMMARY -->
+    <nav id="navbar-summary" class="summary navbar bg-transparent">
+      <nav class="nav flex-column">
+        {% for tag in site.tags %}
+        <h2 class="tag-title" >{{ tag[0] }}</h2>
+        <nav class="nav flex-column tag-questions">
+        {% assign sorted = tag[1] | sort: 'date' %}
+        {% for post in sorted %}
+            <a class="nav-link ml-3 tag-questions-item" href="#post-{% increment counter %}">
+              <span class="chevron right"></span>{{ post.title }}
+            </a>
+        {% endfor %}
+        </nav>
+        {% endfor %}
+      </nav>
+    </nav>
+    <!-- SUMMARY -->
+    
+    <section class="row posts">
+      <div class="col pr-5" data-spy="scroll" data-target="#navbar-summary" data-offset="0">
+        {% for post in site.categories.faq %}
+        <article class="post {% if post.urgence_post %}urgence{% endif %}" id="post-{% increment counter_post %}">
+          <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% endif %} position-relative">{{ post.title }}<a class="anchor chevron up scroll-to-top" href="#navbar-summary"></a></h1>
+          <div class="post-content">{{ post.content }}</div>
+          {% for social in post.insertion_social %}
+          <div class="">{{ social.contenu_code_block }}</div>
+          {% endfor %}
+        </article>
+        {% endfor %}
+      </div>
+      
+    </section>
+  </div>
+  
+  <!--SIDEBAR-->
+  {%- include content_footer.html -%}
+  <!--END SIDEBAR-->
+</div>
+<!-- END DESKTOP-->

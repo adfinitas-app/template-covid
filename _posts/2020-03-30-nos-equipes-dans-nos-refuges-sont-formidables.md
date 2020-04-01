@@ -15,6 +15,8 @@ insertion_video_youtube:
       allow="accelerometer; autoplay; encrypted-media; gyroscope;
       picture-in-picture" allowfullscreen></iframe>
 category: actualite
+tag: "COMMENT NOUS AIDER"
+
 ---
 
 Soyez rassur&eacute;s pour les animaux de nos refuges, nos &eacute;quipes sont plus que jamais mobilis&eacute;es. Malgr&eacute; la crise sanitaire, l'activit&eacute; continue de battre son plein dans nos refuges \! Entre les balades, les soins et les repas, jamais le temps de s'ennuyer \! Plongez dans le quotidien de nos refuges en vid&eacute;o \!

@@ -9,6 +9,8 @@ images:
 insertion_video:
   - video_code_block:
 category: actualite
+tag: "COMMENT NOUS AIDER"
+
 ---
 
 * **Au Grand Refuge, les pensionnaires se r&eacute;veillent et les plus jeunes attendent (im)patiemment que leurs mamans et leurs papas &agrave; deux pattes viennent s'occuper d'eux \!&nbsp;**Quoi de mieux qu'un bon biberon pour commencer la journ&eacute;e ?&nbsp;

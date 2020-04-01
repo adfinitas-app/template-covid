@@ -25,11 +25,11 @@ sidebar:
       activate: true
       texte: Je fais un don chaque mois
       gift_url: 'https://soutenir.la-spa.fr/b?cid=227&lang=fr_FR'
-      amount1_number: 5
-      amount2_number: 10
-      amount3_number: 15
+      amount1_number: 10
+      amount2_number: 15
+      amount3_number: 30
   defiscalisation: >-
-    Ce don de <span class="chosen-amount">100</span>€ vous revient à <span class="calculated-amount-container"><span class="calculated-amount">34</span>€</span> après déduction fiscale. 66% de votre don est déductible de l’impôt sur le Revenu, dans la limite de 20% du revenu net imposable.
+    Ce don de <span class="chosen-amount">100</span>€ vous revient à <span class="calculated-amount-container"><span class="calculated-amount">34</span>€</span> après réduction fiscale. 66% de votre don est déductible de l’impôt sur le Revenu, dans la limite de 20% du revenu net imposable.
   monthly: Je souhaite plutôt faire un don tous les mois
   newsletter:
     title: Suivez le direct de la SPA

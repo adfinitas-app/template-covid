@@ -5,6 +5,7 @@ title: DOIS-JE ABANDONNER OU TUER MON ANIMAL ?
 insertion_social:
   - contenu_code_block:
 category: faq
+tag: LES ANIMAUX ET LE COVID-19
 ---
 
 NON \!&nbsp;

@@ -9,4 +9,9 @@ images:
 insertion_video:
   - video_code_block:
 category:
+tags:
+  - "LES ANIMAUX ET LE COVID-19"
+  - "LE CONFINEMENT"
+  - "L'ORGANISATION"
+  - "COMMENT NOUS AIDER"
 ---

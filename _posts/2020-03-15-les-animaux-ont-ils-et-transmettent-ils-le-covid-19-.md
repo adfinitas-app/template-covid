@@ -5,6 +5,7 @@ title: LES ANIMAUX ONT-ILS ET TRANSMETTENT-ILS LE COVID-19 ?
 insertion_social:
   - contenu_code_block:
 category: faq
+tag: "COMMENT NOUS AIDER"
 ---
 
 **NON \!&nbsp;**

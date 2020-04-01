@@ -5,6 +5,7 @@ title: DOIS-JE PROTÉGER MON ANIMAL ?
 insertion_social:
   - contenu_code_block:
 category: faq
+tag: LES ANIMAUX ET LE COVID-19
 ---
 
 OUI \!
