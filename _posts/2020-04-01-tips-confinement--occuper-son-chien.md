@@ -1,6 +1,6 @@
 ---
 date: 2020-04-01 06:00:00
-urgence_post: true
+urgence_post: false
 title: 'TIPS CONFINEMENT : OCCUPER SON CHIEN'
 insertion_social:
   - contenu_code_block:
