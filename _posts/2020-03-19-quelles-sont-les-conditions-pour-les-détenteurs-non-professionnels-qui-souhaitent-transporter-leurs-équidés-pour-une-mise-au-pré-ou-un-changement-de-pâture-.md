@@ -4,7 +4,7 @@ urgence_post: false
 title: >-
   QUELLES SONT LES CONDITIONS POUR LES DÉTENTEURS NON PROFESSIONNELS QUI
   SOUHAITENT TRANSPORTER LEURS ÉQUIDÉS POUR UNE MISE AU PRÉ OU UN CHANGEMENT DE
-  P TURE ?
+  PÂTURE ?
 insertion_social:
   - contenu_code_block:
 images:
