@@ -17,4 +17,4 @@ Ces produits sont &agrave; PROSCRIRE pour les animaux : ils ne sont absolument p
 
 Si vous souhaitez nettoyer votre animal il faut simplement utiliser de l’eau savonneuse, rien de plus \!
 
-Si vous souhaitez retrouver la r&eacute;ponse &agrave; cette questions ainsi que bien d'autres, rendez-vous sur notre FAQ ici.
+[Si vous souhaitez retrouver la r&eacute;ponse &agrave; cette questions ainsi que bien d'autres, rendez-vous sur notre FAQ ici.](https://www.covid19.la-spa.fr/faq.html)
