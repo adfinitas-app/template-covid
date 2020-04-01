@@ -5,7 +5,7 @@ title: 'TIPS CONFINEMENT : OCCUPER SON CHIEN'
 insertion_social:
   - contenu_code_block:
 images:
-  - gallery_image: /uploads/img-20200324-182529-1.jpg
+  - gallery_image: /uploads/img-20200324-182529-2.jpg
 insertion_video:
   - video_code_block:
 category: actualite
