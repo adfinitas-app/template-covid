@@ -13,4 +13,6 @@ insertion_video:
 category: faq
 ---
 
-Le Lorem Ipsum est simplement du faux texte employ&eacute; dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les ann&eacute;es 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour r&eacute;aliser un livre sp&eacute;cimen de polices de texte. Il n'a pas fait que survivre cinq si&egrave;cles, mais s'est aussi adapt&eacute; &agrave; la bureautique informatique, sans que son contenu n'en soit modifi&eacute;. Il a &eacute;t&eacute; popularis&eacute; dans les ann&eacute;es 1960 gr&acirc;ce &agrave; la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus r&eacute;cemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+**Ces produits sont &agrave; PROSCRIRE pour les animaux :** ils ne sont absolument pas adapt&eacute;s car dangereux pour eux\! Ils sont corrosifs et risquent donc d’irriter ou m&ecirc;me br&ucirc;ler leurs muqueuses, leurs pattes ou leur pelage… Plusieurs v&eacute;t&eacute;rinaires l’ont malheureusement constat&eacute; ces derniers jours et ont m&ecirc;me signal&eacute; des comas &eacute;thyliques : les animaux se l&egrave;chent et ing&egrave;rent donc le produit et l’alcool du gel d&eacute;sinfectant\!&nbsp;
+
+Si vous souhaitez nettoyer votre animal il faut simplement utiliser de l’eau savonneuse, rien de plus \!&nbsp;
