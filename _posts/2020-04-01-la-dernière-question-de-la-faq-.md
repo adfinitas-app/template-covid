@@ -11,10 +11,8 @@ insertion_video:
 category: actualite
 ---
 
-**Pourquoi je ne peux pas utiliser de d&eacute;tergent ou de gel hydro-alcoolique pour nettoyer mon animal ?**&nbsp;
+[**Pourquoi je ne peux pas utiliser de d&eacute;tergent ou de gel hydro-alcoolique pour nettoyer mon animal ?**](__notset__)&nbsp;
 
 Ces produits sont &agrave; PROSCRIRE pour les animaux : ils ne sont absolument pas adapt&eacute;s car dangereux pour eux\! Ils sont corrosifs et risquent donc d’irriter ou m&ecirc;me br&ucirc;ler leurs muqueuses, leurs pattes ou leur pelage… Plusieurs v&eacute;t&eacute;rinaires l’ont malheureusement constat&eacute; ces derniers jours et ont m&ecirc;me signal&eacute; des comas &eacute;thyliques : les animaux se l&egrave;chent et ing&egrave;rent donc le produit et l’alcool du gel d&eacute;sinfectant\!&nbsp;
 
-Si vous souhaitez nettoyer votre animal il faut simplement utiliser de l’eau savonneuse, rien de plus \!&nbsp;
-
-&nbsp;
+[Si vous souhaitez nettoyer votre animal il faut simplement utiliser de l’eau savonneuse, rien de plus \!&nbsp;](https://covid19.la-spa.fr/faq)
