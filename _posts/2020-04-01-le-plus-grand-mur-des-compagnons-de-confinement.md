@@ -5,7 +5,6 @@ title: Le plus grand mur des compagnons de confinement
 insertion_social:
   - contenu_code_block:
 images:
-  - gallery_image:
   - gallery_image: /uploads/bloc-460x200-murdesconfinés.png
 insertion_video:
   - video_code_block:
