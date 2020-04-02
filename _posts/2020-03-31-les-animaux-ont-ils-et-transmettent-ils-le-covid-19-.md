@@ -9,7 +9,7 @@ images:
 insertion_video:
   - video_code_block:
 category: faq
-tag: "COMMENT NOUS AIDER"
+tag: "LES ANIMAUX ET LE COVID-19"
 ---
 
 **NON \! Ils ne l’ont pas, et ils ne le transmettent pas \!**
