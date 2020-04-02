@@ -9,7 +9,7 @@ images:
 insertion_video:
   - video_code_block:
 category: faq
-tag: "LES ANIMAUX ET LE COVID-19"
+tag: 2 - LE CONFINEMENT
 ---
 
 Nous conseillons aux propri&eacute;taires de chats de les laisser en int&eacute;rieur, non pas car ils pourraient &ecirc;tre vecteurs de transmission – nous rappelons que les animaux ne transmettent pas le COVID-19 &agrave; l’homme – mais pour &eacute;viter qu’ils ne se blessent avec leurs cong&eacute;n&egrave;res ou soient mordus par un chien (encore une fois, les v&eacute;t&eacute;rinaires ne prennent en consultation que les pathologies vitales), ou encore qu’ils soient ramass&eacute;s par les services de fourri&egrave;re.
