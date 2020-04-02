@@ -9,6 +9,7 @@ images:
 insertion_video:
   - video_code_block:
 category: faq
+tag: "L'ORGANISATION"
 ---
 
 Nos responsables et agents animaliers, ainsi que nos b&eacute;n&eacute;voles sont toujours sur place pour assurer le bien-&ecirc;tre de nos petits pensionnaires.
