@@ -9,7 +9,7 @@ images:
 insertion_video:
   - video_code_block:
 category: faq
-tag: "LE CONFINEMENT"
+tag: 2 - LE CONFINEMENT
 ---
 
 Durant la d&eacute;claration du gouvernement, l'accent a &eacute;t&eacute; port&eacute; principalement sur les joggeurs et les promenades des enfants. En cons&eacute;quence, il ne nous semble pas qu'un quelconque changement soit &agrave; anticiper face aux sorties obligatoires d'hygi&egrave;ne et de bien-&ecirc;tre des chiens de compagnie.
