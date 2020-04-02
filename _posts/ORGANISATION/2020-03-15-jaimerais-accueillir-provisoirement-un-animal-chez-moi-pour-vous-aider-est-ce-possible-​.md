@@ -7,8 +7,7 @@ title: >-
 insertion_social:
   - contenu_code_block:
 category: faq
-tag: "COMMENT NOUS AIDER"
-
+tag: 4 - L'ORGANISATION
 ---
 
 Nous sommes en train de d&eacute;finir avec le minist&egrave;re comment nous pourrons proc&eacute;der dans le cadre du confinement.
