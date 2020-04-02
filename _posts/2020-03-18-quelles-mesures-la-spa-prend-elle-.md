@@ -9,6 +9,7 @@ images:
 insertion_video:
   - video_code_block:
 category: faq
+tag: "L'ORGANISATION"
 ---
 
 En conformit&eacute; avec le plan d’action COVID-19 du gouvernement, la SPA, comme toutes les associations de protection animale, ferme au public tous ses refuges, Maisons SPA et dispensaires &agrave; partir de ce dimanche 15 mars jusqu’&agrave; nouvel ordre.
