@@ -25,6 +25,14 @@ gtm_id:
 categories:
   - actualite
   - faq
+  
+tags:
+  - LES ANIMAUX ET LE COVID-19
+  - COMMENT NOUS AIDER
+  - LE CONFINEMENT
+  - L'ORGANISATION
+  - SECTION SPÉCIALE ÉQUIDÉS
+  - TOTO
 
 # Build settings
 plugins:
