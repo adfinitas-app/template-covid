@@ -9,6 +9,7 @@ images:
 insertion_video:
   - video_code_block:
 category: faq
+tag: "COMMENT NOUS AIDER"
 ---
 
 ### **JE VEUX BIEN PRENDRE SOIN D’UN PETIT CHIEN QUELQUES SEMAINES POUR QUELQU’UN QUI EST &Agrave; L’H&Ocirc;PITAL PENDANT CE P&Eacute;RIODE DE COVID-19.**
