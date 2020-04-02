@@ -66,7 +66,8 @@ contenu_html: >-
     <!-- SUMMARY -->
     <nav id="navbar-summary" class="summary navbar bg-transparent">
       <nav class="nav flex-column">
-        {% for tag in site.tags %}
+        {% assign sorted_tags = (site.tags | sort:0) %}
+        {% for tag in sorted_tags %}
         <h2 class="tag-title" >{{ tag[0] }}</h2>
         <nav class="nav flex-column tag-questions mb-4">
         {% assign sorted = tag[1] | sort: 'date' %}
