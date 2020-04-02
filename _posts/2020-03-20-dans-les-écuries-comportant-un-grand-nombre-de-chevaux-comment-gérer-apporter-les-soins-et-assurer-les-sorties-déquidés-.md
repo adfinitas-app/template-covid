@@ -11,6 +11,7 @@ images:
 insertion_video:
   - video_code_block:
 category: faq
+tag: "LES ANIMAUX ET LE COVID-19"
 ---
 
 Lorsqu'un nombre d’employ&eacute;s insuffisant peut conduire &agrave; menacer gravement le bien-&ecirc;tre animal dans certaines structures (refuges, fourri&egrave;res, centres &eacute;questres…), celles-ci peuvent avoir recours, pour assurer les besoins physiologiques fondamentaux des animaux, &agrave; des personnes non-salari&eacute;es.&nbsp;
