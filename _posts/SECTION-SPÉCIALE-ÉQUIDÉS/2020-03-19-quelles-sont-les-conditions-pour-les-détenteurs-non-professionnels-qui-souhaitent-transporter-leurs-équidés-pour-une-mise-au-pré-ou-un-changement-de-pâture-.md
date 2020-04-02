@@ -12,12 +12,7 @@ images:
 insertion_video:
   - video_code_block:
 category: faq
-tag:
-  - "LES ANIMAUX ET LE COVID-19"
-  - "LE CONFINEMENT"
-  - "L'ORGANISATION"
-  - "COMMENT NOUS AIDER"
-tag: "LES ANIMAUX ET LE COVID-19"
+tag: 3 - SECTION SPÉCIALE ÉQUIDÉS
 ---
 
 Quelles sont les conditions pour les d&eacute;tenteurs non professionnels qui souhaitent transporter leurs &eacute;quid&eacute;s pour une mise au pr&eacute; ou un changement de p&acirc;ture ?&nbsp;
