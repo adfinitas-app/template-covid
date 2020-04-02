@@ -68,7 +68,7 @@ contenu_html: >-
       <nav class="nav flex-column">
         {% for tag in site.tags %}
         <h2 class="tag-title" >{{ tag[0] }}</h2>
-        <nav class="nav flex-column tag-questions">
+        <nav class="nav flex-column tag-questions mb-4">
         {% assign sorted = tag[1] | sort: 'date' %}
         {% for post in sorted %}
             <a class="nav-link ml-3 tag-questions-item" href="#post-{{ post.title | slugify: 'ascii' }}">
