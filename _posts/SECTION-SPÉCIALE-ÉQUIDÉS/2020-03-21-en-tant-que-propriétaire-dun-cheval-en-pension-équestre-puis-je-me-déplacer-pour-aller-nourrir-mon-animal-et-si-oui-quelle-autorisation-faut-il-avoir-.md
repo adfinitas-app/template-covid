@@ -11,7 +11,7 @@ images:
 insertion_video:
   - video_code_block:
 category: faq
-tag: "LES ANIMAUX ET LE COVID-19"
+tag: 3 - SECTION SPÉCIALE ÉQUIDÉS
 ---
 
 Il convient de limiter le plus possible les d&eacute;placements ainsi que les regroupements de personnes sur un m&ecirc;me site. Les centres &eacute;questres et les haras sont ferm&eacute;s au public. Un cheval en pension devra &ecirc;tre nourri par les employ&eacute;s de la pension.&nbsp;
