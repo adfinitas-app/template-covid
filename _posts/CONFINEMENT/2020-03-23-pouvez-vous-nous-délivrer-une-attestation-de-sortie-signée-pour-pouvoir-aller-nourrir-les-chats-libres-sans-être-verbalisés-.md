@@ -11,7 +11,7 @@ images:
 insertion_video:
   - video_code_block:
 category: faq
-tag: "LE CONFINEMENT"
+tag: 2 - LE CONFINEMENT
 ---
 
 Malheureusement, la SPA ne repr&eacute;sente aucune forme d’autorit&eacute; et ne peut pas d&eacute;livrer d’attestation de sortie sign&eacute;e, car elle ne disposera d’aucune valeur aux yeux des forces de l’ordre. Nous ne pouvons pas signer d’attestation professionnelle concernant cette activit&eacute; non plus car elle ne rentre pas nos activit&eacute;s quotidiennes d&eacute;crites dans le Plan de Continuit&eacute; de l’Action valid&eacute; par les Minist&egrave;res.&nbsp;
