@@ -19,6 +19,8 @@ contenu_html: >-
   <div class="row heading">
     {{ page.contenu_html }}
   </div>
+ 
+    
   <section class="posts">
     {% for post in site.categories.faq %}
     <article class="post {% if post.urgence_post %}urgence{% endif %}">
@@ -66,7 +68,7 @@ contenu_html: >-
       <nav class="nav flex-column">
         {% for tag in site.tags %}
         <h2 class="tag-title" >{{ tag[0] }}</h2>
-        <nav class="nav flex-column tag-questions">
+        <nav class="nav flex-column tag-questions mb-4">
         {% assign sorted = tag[1] | sort: 'date' %}
         {% for post in sorted %}
             <a class="nav-link ml-3 tag-questions-item" href="#post-{{ post.title | slugify: 'ascii' }}">
@@ -81,6 +83,7 @@ contenu_html: >-
     
     <section class="row posts">
       <div class="col pr-5" data-spy="scroll" data-target="#navbar-summary" data-offset="0">
+        <h1  class="post-title text-uppercase position-relative">Retrouvez toutes vos questions</h1>
         {% for post in site.categories.faq %}
         <article class="post {% if post.urgence_post %}urgence{% endif %}" id="post-{{ post.title | slugify: 'ascii' }}">
           <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% endif %} position-relative">{{ post.title }}<a class="anchor chevron up scroll-to-top" href="#navbar-summary"></a></h1>

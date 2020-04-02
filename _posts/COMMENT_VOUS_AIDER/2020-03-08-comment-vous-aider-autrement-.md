@@ -9,6 +9,7 @@ images:
 insertion_video:
   - video_code_block:
 category: faq
+tag: "COMMENT NOUS AIDER"
 ---
 
 Merci de votre soutien et de votre inqui&eacute;tude pour les animaux.

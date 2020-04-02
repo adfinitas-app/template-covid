@@ -2,114 +2,114 @@
 layout: default
 title: "En direct"
 ---
-  {%- include progress-bar.html -%}
+{%- include progress-bar.html -%}
 
-  <!-- MOBILE -->
-  <div class="home-mobile page-mobile d-md-none">
-      {%- include sidebar_mobile.html -%}
-      <div class="bandeau-covid">
-          <p class="text-center text-white">
-            {{ page.title }} - Dernière mise à jour <span>{{ page.last_modified_at | date: '%d/%m/%y %H:%M' }}</span>
-          </p>
+<!-- MOBILE -->
+<div class="home-mobile page-mobile d-md-none">
+  {%- include sidebar_mobile.html -%}
+  <div class="bandeau-covid">
+    <p class="text-center text-white">
+      {{ page.title }} - Dernière mise à jour <span>{{ page.last_modified_at | date: '%d/%m/%y %H:%M' }}</span>
+    </p>
+  </div>
+  <section class="posts">
+    {% for post in site.categories.actualite %}
+    <article class="post {% if post.urgence_post %}urgence{% endif %}">
+      <div class="post-publication-time"><span>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span></div>
+      <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% endif %}">{{ post.title }}</h1>
+      <div class="post-content">{{ post.content }}</div>
+      {% for video in post.insertion_video_facebook %}
+      {% if video.video_code_block %}
+      <div class="video-responsive">{{ video.video_code_block }}</div>
+      {% endif %}
+      {% endfor %}
+      {% for video in post.insertion_video_youtube %}
+      {% if video.video_code_block %}
+      <div class="embed-responsive embed-responsive-16by9">{{ video.video_code_block }}</div>
+      {% endif %}
+      {% endfor %}
+      <div class="container-images">
+        {% for image in post.images %}
+        <img src="{{ image.gallery_image }}" />
+        {% endfor %}
       </div>
-      <section class="posts">
-                  {% for post in site.categories.actualite %}
-                  <article class="post {% if post.urgence_post %}urgence{% endif %}">
-                      <div class="post-publication-time"><span>{{ post.date | date: '%d.%m.%Y'}}<small> {{ post.date | date: 'à %HH%M'}}</small></span></div>
-                      <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% endif %}">{{ post.title }}</h1>
-                      <div class="post-content">{{ post.content }}</div>
-                      {% for video in post.insertion_video_facebook %}
-                      {% if video.video_code_block %}
-                      <div class="video-responsive">{{ video.video_code_block }}</div>
-                      {% endif %}
-                      {% endfor %}
-                      {% for video in post.insertion_video_youtube %}
-                      {% if video.video_code_block %}
-                      <div class="embed-responsive embed-responsive-16by9">{{ video.video_code_block }}</div>
-                      {% endif %}
-                      {% endfor %}
-                      <div class="container-images">
-                          {% for image in post.images %}
-                          <img src="{{ image.gallery_image }}" />
-                          {% endfor %}
-                      </div>
-                     <div class="row">
-                          {% for social in post.insertion_social %}
-                            {% if social.contenu_code_block %}
-                            <div class="col embed-responsive embed-responsive-16by9">
-                                  {{ social.contenu_code_block }}
-                            </div>
-                            {% endif %}
-                          {% endfor %}
-                    </div>
-                  </article>
-                  {% endfor %}
+      <div class="row">
+        {% for social in post.insertion_social %}
+        {% if social.contenu_code_block %}
+        <div class="col embed-responsive embed-responsive-16by9">
+          {{ social.contenu_code_block }}
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </article>
+    {% endfor %}
+  </section>
+</div>
+<!-- END MOBILE -->
+
+<!--DESKTOP-->
+<div class="home d-none d-md-block">
+  
+  <!--SIDEBAR-->
+  {%- include sidebar_desktop.html -%}
+  <!--END SIDEBAR-->
+  
+  <div class="content">
+    
+    <!-- NAVBAR DESKTOP -->
+    {%- include navbar_desktop.html -%}
+    <!-- NAVBAR DESKTOP END -->
+    
+    <div class="blog">
+      <!--              <p class="covid-19 text-white bg-primary text-bold">{{ page.title }}</p>-->
+      
+      <p class="last-update">
+        {{page.title}} - Dernière mise à jour le
+        <span>{{ page.last_modified_at | date: '%d.%m.%Y' }}</span>
+      </p>
+      
+      <section class="row posts">
+        <div class="col">
+          {% for post in site.categories.actualite %}
+          <article class="post {% if post.urgence_post %}urgence{% endif %}">
+            <div class="post-publication-time {% if post.urgence_post %}text-urgence{% endif %}"><b>{{ post.date | date: '%d.%m.%Y'}}</b><br><small>{{ post.date | date: 'à %HH%M'}}</small></div>
+            <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% endif %}">{{ post.title }}</h1>
+            <div class="post-content">{{ post.content }}</div>
+            <div class="container-images">
+              {% for image in post.images %}
+              <img src="{{ image.gallery_image }}" />
+              {% endfor %}
+            </div>
+            {% for video in post.insertion_video_facebook %}
+            {% if video.video_code_block %}
+            <div class="video-responsive">{{ video.video_code_block }}</div>
+            {% endif %}
+            {% endfor %}
+            {% for video in post.insertion_video_youtube %}
+            {% if video.video_code_block %}
+            <div class="embed-responsive embed-responsive-16by9">{{ video.video_code_block }}</div>
+            {% endif %}
+            {% endfor %}
+            <div class="row">
+              {% for social in post.insertion_social %}
+              {% if social.contenu_code_block %}
+              <div class="col">
+                {{ social.contenu_code_block }}
+              </div>
+              {% endif %}
+              {% endfor %}
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+        
       </section>
+    </div>
+    
+    <!--SIDEBAR-->
+    <!--END SIDEBAR-->
   </div>
-  <!-- END MOBILE -->
-
-  <!--DESKTOP-->
-  <div class="home d-none d-md-block">
-
-      <!--SIDEBAR-->
-      {%- include sidebar_desktop.html -%}
-      <!--END SIDEBAR-->
-
-      <div class="content">
-
-        <!-- NAVBAR DESKTOP -->
-          {%- include navbar_desktop.html -%}
-        <!-- NAVBAR DESKTOP END -->
-
-          <div class="blog">
-<!--              <p class="covid-19 text-white bg-primary text-bold">{{ page.title }}</p>-->
-
-              <p class="last-update">
-                {{page.title}} - Dernière mise à jour le
-                <span>{{ page.last_modified_at | date: '%d.%m.%Y' }}</span>
-              </p>
-
-              <section class="row posts">
-                <div class="col">
-                    {% for post in site.categories.actualite %}
-                    <article class="post {% if post.urgence_post %}urgence{% endif %}">
-                        <div class="post-publication-time {% if post.urgence_post %}text-urgence{% endif %}"><b>{{ post.date | date: '%d.%m.%Y'}}</b><br><small>{{ post.date | date: 'à %HH%M'}}</small></div>
-                        <h1  class="post-title text-uppercase {% if post.urgence_post %}text-urgence{% endif %}">{{ post.title }}</h1>
-                        <div class="post-content">{{ post.content }}</div>
-                        <div class="container-images">
-                        {% for image in post.images %}
-                               <img src="{{ image.gallery_image }}" />
-                         {% endfor %}
-                        </div>
-                        {% for video in post.insertion_video_facebook %}
-                          {% if video.video_code_block %}
-                        <div class="video-responsive">{{ video.video_code_block }}</div>
-                          {% endif %}
-                        {% endfor %}
-                        {% for video in post.insertion_video_youtube %}
-                        {% if video.video_code_block %}
-                        <div class="embed-responsive embed-responsive-16by9">{{ video.video_code_block }}</div>
-                        {% endif %}
-                        {% endfor %}
-                        <div class="row">
-                          {% for social in post.insertion_social %}
-                            {% if social.contenu_code_block %}
-                            <div class="col">
-                                  {{ social.contenu_code_block }}
-                            </div>
-                            {% endif %}
-                          {% endfor %}
-                        </div>
-                    </article>
-                    {% endfor %}
-                </div>
-
-              </section>
-          </div>
-
-          <!--SIDEBAR-->
-          <!--END SIDEBAR-->
-      </div>
-      {%- include content_footer.html -%}
-  </div>
-  <!-- END DESKTOP-->
+  {%- include content_footer.html -%}
+</div>
+<!-- END DESKTOP-->

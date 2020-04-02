@@ -9,6 +9,7 @@ images:
 insertion_video:
   - video_code_block:
 category: faq
+tag: "COMMENT NOUS AIDER"
 ---
 
 Les associations de protection animale, quelles qu’elles soient, se sont toutes mobilis&eacute;es et organis&eacute;es pour pouvoir s’occuper des animaux, mais cela induit une pr&eacute;sence humaine minimale en refuges pour &eacute;viter que ces derniers deviennent un vecteur de contamination entre personnes.

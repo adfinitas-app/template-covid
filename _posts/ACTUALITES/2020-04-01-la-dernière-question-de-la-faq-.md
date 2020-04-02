@@ -1,7 +1,7 @@
 ---
 date: 2020-04-01 12:00:00
 urgence_post: false
-title: La dernière question de la FAQ !
+title: LA DERNIÈRE QUESTION DE LA FAQ !
 insertion_social:
   - contenu_code_block:
 images:
@@ -9,6 +9,7 @@ images:
 insertion_video:
   - video_code_block:
 category: actualite
+tag:
 ---
 
 **Pourquoi je ne peux pas utiliser de d&eacute;tergent ou de gel hydro-alcoolique pour nettoyer mon animal ?**
@@ -17,4 +18,4 @@ Ces produits sont &agrave; PROSCRIRE pour les animaux : ils ne sont absolument p
 
 Si vous souhaitez nettoyer votre animal il faut simplement utiliser de l’eau savonneuse, rien de plus \!
 
-[Si vous souhaitez retrouver la r&eacute;ponse &agrave; cette question ainsi que bien d'autres, rendez-vous sur notre FAQ ici.](https://covid19.la-spa.fr/faq.html)
+[Si vous souhaitez retrouver la r&eacute;ponse &agrave; cette question ainsi que bien d’autres, rendez-vous sur notre FAQ ici.](https://covid19.la-spa.fr/faq.html)

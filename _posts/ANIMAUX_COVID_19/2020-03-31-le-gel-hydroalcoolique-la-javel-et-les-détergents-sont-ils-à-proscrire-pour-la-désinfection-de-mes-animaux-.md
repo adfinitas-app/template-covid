@@ -11,6 +11,7 @@ images:
 insertion_video:
   - video_code_block:
 category: faq
+tag: "LES ANIMAUX ET LE COVID-19"
 ---
 
 **Ces produits sont &agrave; PROSCRIRE pour les animaux :** ils ne sont absolument pas adapt&eacute;s car dangereux pour eux\! Ils sont corrosifs et risquent donc d’irriter ou m&ecirc;me br&ucirc;ler leurs muqueuses, leurs pattes ou leur pelage… Plusieurs v&eacute;t&eacute;rinaires l’ont malheureusement constat&eacute; ces derniers jours et ont m&ecirc;me signal&eacute; des comas &eacute;thyliques : les animaux se l&egrave;chent et ing&egrave;rent donc le produit et l’alcool du gel d&eacute;sinfectant\!&nbsp;

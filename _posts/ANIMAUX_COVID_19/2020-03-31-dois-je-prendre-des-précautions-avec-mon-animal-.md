@@ -9,6 +9,7 @@ images:
 insertion_video:
   - video_code_block:
 category: faq
+tag: "LES ANIMAUX ET LE COVID-19"
 ---
 
 **OUI \!**
