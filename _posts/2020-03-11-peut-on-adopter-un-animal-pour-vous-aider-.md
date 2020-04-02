@@ -9,6 +9,7 @@ images:
 insertion_video:
   - video_code_block:
 category: faq
+tag: "COMMENT NOUS AIDER"
 ---
 
 La SPA se mobilise et s’organise pr&eacute;sentement pour mettre en place un ou plusieurs dispositifs permettant &agrave; la fois de d&eacute;-saturer les refuges, sans pour autant mettre en danger la vie de quiconque, ni se mettre dans une situation compliqu&eacute;e pour l’apr&egrave;s-COVID19.
