@@ -9,7 +9,7 @@ images:
 insertion_video:
   - video_code_block:
 category: faq
-tag: "L'ORGANISATION"
+tag: 4 - L'ORGANISATION
 ---
 
 La SPA n’euthanasie pas ses animaux et ne compte pas commencer maintenant.
