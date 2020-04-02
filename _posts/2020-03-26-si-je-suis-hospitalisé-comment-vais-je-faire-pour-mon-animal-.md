@@ -9,6 +9,7 @@ images:
 insertion_video:
   - video_code_block:
 category: faq
+tag: "LE CONFINEMENT"
 ---
 
 Nous travaillons actuellement &agrave; devenir l’interm&eacute;diaire entre des personnes qui, comme vous, peuvent &ecirc;tre plus expos&eacute;s ou vuln&eacute;rables au virus, et les personnes qui proposent des gardes d’animaux solidaires. Nous conservons votre contact et vous tiendrons au courant.
