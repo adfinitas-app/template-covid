@@ -9,7 +9,7 @@ images:
 insertion_video:
   - video_code_block:
 category:
-tags:
+tag:
   - "LES ANIMAUX ET LE COVID-19"
   - "LE CONFINEMENT"
   - "L'ORGANISATION"
