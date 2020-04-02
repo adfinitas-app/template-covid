@@ -9,7 +9,7 @@ images:
 insertion_video:
   - video_code_block:
 category: faq
-tag: "L'ORGANISATION"
+tag: 4 - L'ORGANISATION
 ---
 
 Non, tout acte v&eacute;t&eacute;rinaire, d’adoption, d’abandon, a &eacute;t&eacute; d&eacute;cal&eacute; &agrave; une date ind&eacute;termin&eacute;e.
