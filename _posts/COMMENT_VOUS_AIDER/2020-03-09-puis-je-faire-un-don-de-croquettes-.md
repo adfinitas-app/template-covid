@@ -9,7 +9,7 @@ images:
 insertion_video:
   - video_code_block:
 category: faq
-tag: "COMMENT NOUS AIDER"
+tag: 5 - COMMENT NOUS AIDER
 ---
 
 Nous vous conseillons de prendre contact avec le refuge le plus proche de chez vous, par le biais de leur page Facebook, ou en les contactant par t&eacute;l&eacute;phone.
