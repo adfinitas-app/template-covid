@@ -9,6 +9,7 @@ images:
 insertion_video:
   - video_code_block:
 category: faq
+tag: "LE CONFINEMENT"
 ---
 
 Si vous trouvez un animal qui a l’air perdu, contactez les services de fourri&egrave;res rattach&eacute;s &agrave; votre commune. Attention, n'appelez pas les services de fourri&egrave;re pour des cas non urgents. Si vous ne savez pas si l'animal appartient ou non &agrave; quelqu'un et qu'il n'a pas l'air en danger, ne contactez pas les services de fourri&egrave;re, il peut tout &agrave; fait s'agir de l'animal de votre voisin.&nbsp;
