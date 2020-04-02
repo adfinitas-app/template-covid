@@ -9,7 +9,7 @@ images:
 insertion_video:
   - video_code_block:
 category: faq
-tag: "LE CONFINEMENT"
+tag: 2 - LE CONFINEMENT
 ---
 
 **OUI \!**
