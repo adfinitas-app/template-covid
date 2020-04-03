@@ -985,6 +985,10 @@ body {
 		}
 	}
 
+	.summary {
+		padding: 0 10px;
+	}
+
 	.post-publication-time {
 		color: $orange;
 		margin: 10px 0;
@@ -999,9 +1003,30 @@ body {
 		}
 	}
 
+	.anchor {
+		position: absolute;
+		top: 5px;
+		right: 1px;
+	}
+
+	.scroll-to-top {
+		border: 1px solid $marron;
+		border-radius: 50%;
+		height: 40px;
+		width: 40px;
+
+		&::before {
+			color: $marron;
+			border-width: 0.10em 0.10em 0 0;
+			left: 0.35em;
+			top: 0.45em;			
+		}
+	}
+
 	.posts {
 		.post {
 			.post-title {
+				padding-right: 44px;
 				font-weight: bold;
 				font-size: 32px;
 				font-family: $titleFontPrimary;
