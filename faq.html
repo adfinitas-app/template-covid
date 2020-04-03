@@ -20,6 +20,24 @@ contenu_html: >-
     {{ page.contenu_html }}
   </div>
  
+  <!-- SUMMARY -->
+  <nav id="navbar-summary-mobile" class="summary navbar bg-transparent">
+    <nav class="nav flex-column">
+      {% assign sorted_tags = (site.tags | sort:0) %}
+      {% for tag in sorted_tags %}
+      <h2 class="tag-title" >{{ tag[0] }}</h2>
+      <nav class="nav flex-column tag-questions mb-4">
+      {% assign sorted = tag[1] | sort: 'date' %}
+      {% for post in sorted %}
+          <a class="nav-link ml-3 tag-questions-item" href="#post-{{ post.title | slugify: 'ascii' }}">
+            <span class="chevron right"></span>{{ post.title }}
+          </a>
+      {% endfor %}
+      </nav>
+      {% endfor %}
+    </nav>
+  </nav>
+  <!-- SUMMARY -->
     
   <section class="posts">
     {% for post in site.categories.faq %}
