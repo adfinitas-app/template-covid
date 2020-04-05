@@ -23,8 +23,6 @@ Aidez-nous &agrave; obtenir la possibilit&eacute; de r&eacute;aliser des adoptio
 
 Soutenez le concept d’\#AdoptionSolidaireSPA respectant scrupuleusement les pr&eacute;cautions sanitaires \! 🧡
 
-Pas de contact entre humains, juste une rencontre entre un compagnon et son futur ma&icirc;tre \!&nbsp;
-
-Pour suivre toutes nos actualit&eacute;s et nous soutenir :&nbsp;<br>👉 https://covid19.la-spa.fr/
+Pas de contact entre humains, juste une rencontre entre un compagnon et son futur ma&icirc;tre \!
 
 \#NouSPArtageons \#AdoptionResponsable \#AdoptDontShop
