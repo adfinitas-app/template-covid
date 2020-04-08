@@ -1,7 +1,7 @@
 ---
-date: 2020-04-05 12:00:00
+date: 2020-04-08 00:00:00
 urgence_post: false
-title: 'Adoption Solidaire SPA ! Mobilisons-nous ! '
+title: Adoption Solidaire SPA ! Mobilisons-nous !
 insertion_social:
   - contenu_code_block:
 images:
