@@ -26,5 +26,3 @@ Vous devez remplir un formulaire et vous pourrez peut-&ecirc;tre, &agrave; l’i
 Nous vous rappelons qu’une adoption responsable est un acte tr&egrave;s r&eacute;fl&eacute;chi, adopter c’est pour la vie et le bien-&ecirc;tre de son animal de compagnie \!&nbsp;
 
 Merci mille fois pour votre soutien et votre amour pour nos petites boules de poils 🙏🧡
-
-&nbsp;
