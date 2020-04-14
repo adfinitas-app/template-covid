@@ -12,8 +12,8 @@ category: faq
 tag: 5 - COMMENT NOUS AIDER
 ---
 
-La SPA se mobilise et s’organise pr&eacute;sentement pour mettre en place un ou plusieurs dispositifs permettant &agrave; la fois de d&eacute;-saturer les refuges, sans pour autant mettre en danger la vie de quiconque, ni se mettre dans une situation compliqu&eacute;e pour l’apr&egrave;s-COVID19.
+Afin que les animaux de compagnie ne soient pas les victimes collat&eacute;rales de la situation actuelle, nous nous sommes pench&eacute;s sur un dispositif d’adoption solidaire permettant de d&eacute;-saturer les refuges, sans pour autant mettre en danger la vie de quiconque. Il a pour objectif d’aider les refuges &agrave; sauver les animaux abandonn&eacute;s pris en charge par la fourri&egrave;re, dans le contexte exceptionnel du COVID-19. Chaque adoption nous permet de lib&eacute;rer une place en refuge pour accueillir un animal abandonn&eacute;, pour lui trouver un nouveau foyer.
 
-Nous sommes en r&eacute;flexion avec les responsables des refuges et tout le si&egrave;ge, ainsi qu’en discussion avec le minist&egrave;re de l’Agriculture (responsable de la protection animale en France).
+L’adoption solidaire est un concept &agrave; 95% digitalis&eacute;, avec in fine un rendez-vous nominatif et individuel au refuge pour rencontrer l’animal, sans contact direct avec nos &eacute;quipes de nos refuges, juste une rencontre entre un compagnon et son futur ma&icirc;tre \! L’adoption solidaire est une d&eacute;marche tout aussi r&eacute;fl&eacute;chie et responsable que l’adoption classique. C’est une adoption d&eacute;finitive.
 
-Nous vous tiendrons bien &eacute;videmment le plus rapidement possible inform&eacute;-e d&egrave;s que nous serons nous-m&ecirc;mes fix&eacute;s sur notre organisation.
+Si vous souhaitez y prendre part, vous pouvez envoyer une demande en remplissant ce formulaire [https://www.la-spa.fr/formulaire-adoption-solidaire-covid-19](https://www.la-spa.fr/formulaire-adoption-solidaire-covid-19){: target="_blank"}
