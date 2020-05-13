@@ -15,8 +15,6 @@ insertion_video_youtube:
 category: actualite
 ---
 
-# COVID-19 : LA SPA FAIT &Eacute;VOLUER SON PROCESSUS D’ADOPTION EN REGARD DU D&Eacute;CONFINEMENT
-
 **Merci pour tout votre soutien, gr&acirc;ce &agrave; vous, nous avons &eacute;vit&eacute; la catastrophe.&Agrave; l’aube de ce deuxi&egrave;me jour de sortie de confinement, la Soci&eacute;t&eacute; Protectrice des Animaux enclenche elle aussi une proc&eacute;dure mesur&eacute;e, pragmatique et raisonn&eacute;e de retour &agrave; la normale.**
 
 ### COMMENT LA SPA VA-T-ELLE S’ORGANISER POUR LE D&Eacute;CONFINEMENT ?
