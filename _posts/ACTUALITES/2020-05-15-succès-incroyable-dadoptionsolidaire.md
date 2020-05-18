@@ -1,5 +1,5 @@
 ---
-date: 2020-05-13 00:00:00
+date: 2020-05-15 00:00:00
 urgence_post: false
 title: 'SUCCÈS INCROYABLE D''#ADOPTIONSOLIDAIRE'
 insertion_social:
@@ -54,7 +54,7 @@ Dans le m&ecirc;me temps, et c’&eacute;tait &eacute;galement l’objectif sous
 
 ### **DES REMERCIEMENTS DE RIGUEUR, PAROLE &Agrave; NOTRE PR&Eacute;SIDENT :**
 
-***&laquo; La mission de la SPA, que j’ai l’honneur de pr&eacute;sider, est de prot&eacute;ger et de sauver les animaux toute l’ann&eacute;e, sur tous les fronts.Il &eacute;tait de notre devoir d’&ecirc;tre &agrave; la hauteur de l’enjeu et de faire en sorte que les animaux ne soient pas les victimes collat&eacute;rales du COVID-19 et du confinement de la population.Je tiens &agrave; remercier l’ensemble des Fran&ccedil;ais qui nous ont massivement soutenus dans cette d&eacute;marche, ainsi que le gouvernement pour nous avoir octroy&eacute; une d&eacute;rogation exceptionnelle concernant les adoptions.Devant cette responsabilit&eacute; que vous nous avez confi&eacute;e, je tiens &eacute;galement &agrave; saluer la mobilisation sans faille – avec professionnalisme et passion – des &eacute;quipes SPA &agrave; travers la France, qui ont rendu possible ce bilan tr&egrave;s positif de 2000 animaux sauv&eacute;s durant ce dernier mois.Nous rentrons dans une nouvelle &eacute;tape et le combat continue. Restons tous concern&eacute;s par le bien-&ecirc;tre animal.L’ensemble de la SPA poursuit son engagement exceptionnel, nous vous l’assurons \!&nbsp;&raquo;***
+***&laquo; La mission de la SPA, que j’ai l’honneur de pr&eacute;sider, est de prot&eacute;ger et de sauver les animaux toute l’ann&eacute;e, sur tous les fronts.Il &eacute;tait de notre devoir d’&ecirc;tre &agrave; la hauteur de l’enjeu et de faire en sorte que les animaux ne soient pas les victimes collat&eacute;rales du COVID-19 et du confinement de la population.Je tiens &agrave; remercier l’ensemble des Fran&ccedil;ais qui nous ont massivement soutenus dans cette d&eacute;marche, ainsi que le gouvernement pour nous avoir octroy&eacute; une d&eacute;rogation exceptionnelle concernant les adoptions.Devant cette responsabilit&eacute; que vous nous avez confi&eacute;e, je tiens &eacute;galement &agrave; saluer la mobilisation sans faille – avec professionnalisme et passion – des &eacute;quipes SPA &agrave; travers la France, qui ont rendu possible ce bilan tr&egrave;s positif de 2000 animaux sauv&eacute;s durant ce dernier mois.Nous rentrons dans une nouvelle &eacute;tape et le combat continue. Restons tous concern&eacute;s par le bien-&ecirc;tre animal.L’ensemble de la SPA poursuit son engagement exceptionnel, nous vous l’assurons \! &raquo;***
 
 *—&nbsp;*Jacques-Charles Fombonne, pr&eacute;sident b&eacute;n&eacute;vole de la SPA
 
