@@ -12,8 +12,8 @@ category: faq
 tag: 2 - LE CONFINEMENT
 ---
 
-Si vous trouvez un animal qui a l’air perdu, contactez les services de fourri&egrave;res rattach&eacute;s &agrave; votre commune. Attention, n'appelez pas les services de fourri&egrave;re pour des cas non urgents. Si vous ne savez pas si l'animal appartient ou non &agrave; quelqu'un et qu'il n'a pas l'air en danger, ne contactez pas les services de fourri&egrave;re, il peut tout &agrave; fait s'agir de l'animal de votre voisin.&nbsp;
+Si vous trouvez un animal qui a l’air perdu, contactez les services de fourri&egrave;res rattachés &agrave; votre commune. Attention, n'appelez pas les services de fourri&egrave;re pour des cas non urgents. Si vous ne savez pas si l'animal appartient ou non &agrave; quelqu'un et qu'il n'a pas l'air en danger, ne contactez pas les services de fourri&egrave;re, il peut tout &agrave; fait s'agir de l'animal de votre voisin.&nbsp;
 
-Si vous ne connaissez pas le contact de la fourri&egrave;re de proximit&eacute;, contactez votre mairie ou les forces de l’ordre (commissariat, gendarmerie), afin qu’ils vous renseignent le bon contact &agrave; joindre.
+Si vous ne connaissez pas le contact de la fourri&egrave;re de proximité, contactez votre mairie ou les forces de l’ordre (commissariat, gendarmerie), afin qu’ils vous renseignent le bon contact &agrave; joindre.
 
-Vous pouvez &eacute;galement signaler l’observation d’un animal &eacute;ventuellement perdu sur les groupes Facebook d&eacute;di&eacute;s, du type [Wanted Community Animaux](https://www.facebook.com/groups/wantedcommunityanimaux/), les pages ou groupes Facebook de votre commune, ou encore via la page [Pet Alert.](https://www.petalert.fr/)
+Vous pouvez également signaler l’observation d’un animal éventuellement perdu sur les groupes Facebook dédiés, du type [Wanted Community Animaux](https://www.facebook.com/groups/wantedcommunityanimaux/), les pages ou groupes Facebook de votre commune, ou encore via la page [Pet Alert.](https://www.petalertfrance.com/){: target="_blank"}
