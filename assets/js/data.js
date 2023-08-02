@@ -1,17 +1,6 @@
 function sendData() {
     const email = document.getElementById('input-newsletter').value
-
-    const payload = {
-        "mailjet" : {
-            "Email": email,
-            "Properties": {
-            },
-            "addLists": ['covid-0320'],
-            "delLists": []
-        },
-    }
-
-    makeCorsRequest(payload)
+    makeCorsRequest({email})
 }
 
 
@@ -45,7 +34,7 @@ function createCORSRequest(method, url) {
     return xhr;
 }
 function makeCorsRequest(data) {
-    var url = 'https://adfinitas-io.herokuapp.com/api/v1/organization/3a15acaa-ae68-49cf-9244-616cb46067ff/webhook/97ea9471-84a7-4e59-8b06-533b8a483f77';
+    var url = 'https://collector.calicut.adfinitas.io/ff5fb5da-5140-48a3-ac06-09ca7402db2a';
     var body = JSON.stringify(data);
     var xhr = createCORSRequest('POST', url);
     if (!xhr) {
